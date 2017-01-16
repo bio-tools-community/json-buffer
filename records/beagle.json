@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "Beagle", 
+ "collection": "DebianMed", 
+ "version": "4.1~160727-86a+dfsg-1", 
+ "publications": {
+  "publicationsOtherID": "10.1534/genetics.113.150029", 
+  "publicationsPrimaryID": [
+   "10.1086/521987"
+  ]
+ }, 
+ "homepage": "https://faculty.washington.edu/browning/beagle/beagle.html", 
+ "description": "Genotype calling, genotype phasing and imputation of ungenotyped markers\n Beagle performs genotype calling, genotype phasing, imputation of ungenotyped\n markers, and identity-by-descent segment detection. Genotypic imputation works\n on phased haplotypes using a Li and Stephens haplotype frequency model.\n Beagle also implements the Refined IBD algorithm for detecting\n homozygosity-by-descent (HBD) and identity-by-descent (IBD) segments."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "canu", 
+ "collection": "DebianMed", 
+ "version": "1.3+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/071282"
+  ]
+ }, 
+ "homepage": "http://canu.readthedocs.org/en/latest/", 
+ "description": "single molecule sequence assembler for genomes\n Canu is a fork of the Celera Assembler, designed for high-noise\n single-molecule sequencing (such as the PacBio RS II or Oxford\n Nanopore MinION).\n .\n Canu is a hierarchical assembly pipeline which runs in four steps:\n .\n  * Detect overlaps in high-noise sequences using MHAP\n  * Generate corrected sequence consensus\n  * Trim corrected sequences\n  * Assemble trimmed corrected sequences"
+}

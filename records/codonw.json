@@ -1,0 +1,50 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0286"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0914"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2330"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "codonw", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0157"
+  }
+ ], 
+ "version": "1.4.4-3", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://codonw.sourceforge.net", 
+ "description": "Correspondence Analysis of Codon Usage\n CodonW is a package for codon usage analysis. It was designed to simplify\n Multivariate Analysis (MVA) of codon usage. The MVA method employed in\n CodonW is correspondence analysis (COA) (the most popular MVA method for\n codon usage analysis). CodonW can generate a COA for codon usage, relative\n synonymous codon usage or amino acid usage. Additional analyses of codon\n usage include investigation of optimal codons, codon and dinucleotide bias,\n and/or base composition. CodonW analyses sequences encoded by genetic codes\n other than the universal code."
+}

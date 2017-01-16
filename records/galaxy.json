@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "galaxy", 
+ "collection": "DebianMed", 
+ "version": "16.10-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.14806/ej.17.1.200"
+  ]
+ }, 
+ "homepage": "http://", 
+ "description": "XXX\n YYYY"
+}

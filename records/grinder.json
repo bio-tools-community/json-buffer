@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "Grinder", 
+ "collection": "DebianMed", 
+ "version": "0.5.4-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/nar/gks251"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/biogrinder/", 
+ "description": "Versatile omics shotgun and amplicon sequencing read simulator\n Grinder is a versatile program to create random shotgun and amplicon sequence\n libraries based on DNA, RNA or proteic reference sequences provided in a\n FASTA file.\n .\n Grinder can produce genomic, metagenomic, transcriptomic, metatranscriptomic,\n proteomic, metaproteomic shotgun and amplicon datasets from current\n sequencing technologies such as Sanger, 454, Illumina. These simulated\n datasets can be used to test the accuracy of bioinformatic tools under\n specific hypothesis, e.g. with or without sequencing errors, or with low or\n high community diversity. Grinder may also be used to help decide between\n alternative sequencing methods for a sequence-based project, e.g. should the\n library be paired-end or not, how many reads should be sequenced."
+}

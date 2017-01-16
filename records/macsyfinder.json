@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "macsyfinder", 
+ "collection": "DebianMed", 
+ "version": "1.0.2-3", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1371/journal.pone.0110726"
+  ]
+ }, 
+ "homepage": "https://github.com/gem-pasteur/macsyfinder", 
+ "description": "detection of macromolecular systems in protein datasets\n MacSyFinder is a program to model and detect macromolecular systems, \n genetic pathways... in protein datasets. In prokaryotes, these systems \n have often evolutionarily conserved properties: they are made of conserved \n components, and are encoded in compact loci (conserved genetic architecture). \n The user models these systems with MacSyFinder to reflect these conserved \n features, and to allow their efficient detection \n . \n This package presents the Open Source Java API to biological databases\n and a series of mostly sequence-based algorithms."
+}

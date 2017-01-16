@@ -1,0 +1,97 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1927"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1935"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1936"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1948"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1997"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1963"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_3271"
+     }
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1916"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1984"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1997"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2000"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1961"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1458"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0872"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1435"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "clustalo", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0080"
+  }
+ ], 
+ "version": "1.2.4-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1038/msb.2011.75"
+  ]
+ }, 
+ "homepage": "http://www.clustal.org/omega/", 
+ "description": "General purpose multiple sequence alignment program for proteins\n Clustal-Omega is a general purpose multiple sequence alignment (MSA)\n program for dna/rna/proteins. It produces high quality MSAs and is capable of\n handling data-sets of hundreds of thousands of sequences in reasonable\n time."
+}

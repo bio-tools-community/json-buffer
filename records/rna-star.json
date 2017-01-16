@@ -1,0 +1,80 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0848"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_3497"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": null
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2306"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3182"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1383"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2573"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2572"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2048"
+     }
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "STAR", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0080"
+  }
+ ], 
+ "version": "2.5.2b+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/bts635"
+  ]
+ }, 
+ "homepage": "https://github.com/alexdobin/STAR/", 
+ "description": "ultrafast universal RNA-seq aligner\n Spliced Transcripts Alignment to a Reference (STAR) software based on a\n previously undescribed RNA-seq alignment algorithm that uses sequential\n maximum mappable seed search in uncompressed suffix arrays followed by\n seed clustering and stitching procedure. STAR outperforms other aligners\n by a factor of >50 in mapping speed, aligning to the human genome 550\n million 2 \u00d7 76 bp paired-end reads per hour on a modest 12-core server,\n while at the same time improving alignment sensitivity and precision. In\n addition to unbiased de novo detection of canonical junctions, STAR can\n discover non-canonical splices and chimeric (fusion) transcripts, and is\n also capable of mapping full-length RNA sequences. Using Roche 454\n sequencing of reverse transcription polymerase chain reaction amplicons,\n the authors experimentally validated 1960 novel intergenic splice\n junctions with an 80-90% success rate, corroborating the high precision\n of the STAR mapping strategy."
+}

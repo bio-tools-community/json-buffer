@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "bio", 
+ "collection": "DebianMed", 
+ "version": "2.0.4-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://sourceforge.net/projects/bio-rainbow/", 
+ "description": "clustering and assembling short reads for bioinformatics\n Efficient tool for clustering and assembling short reads, especially for RAD."
+}

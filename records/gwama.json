@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "GWAMA", 
+ "collection": "DebianMed", 
+ "version": "2.2.2+dfsg-1", 
+ "publications": {
+  "publicationsOtherID": "10.1002/gepi.20540", 
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-11-288"
+  ]
+ }, 
+ "homepage": "http://www.geenivaramu.ee/en/tools/gwama", 
+ "description": "Genome-Wide Association Meta Analysis\n GWAMA (Genome-Wide Association Meta Analysis) software performs\n meta-analysis of the results of GWA studies of binary or\n quantitative phenotypes. Fixed- and random-effect meta-analyses are\n performed for both directly genotyped and imputed SNPs using\n estimates of the allelic odds ratio and 95% confidence interval for\n binary traits, and estimates of the allelic effect size and standard\n error for quantitative phenotypes. GWAMA can be used for analysing\n the results of all different genetic models (multiplicative,\n additive, dominant, recessive). The software incorporates error\n trapping facilities to identify strand alignment errors and allele\n flipping, and performs tests of heterogeneity of effects between studies."
+}

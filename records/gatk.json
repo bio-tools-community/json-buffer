@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "GATK", 
+ "collection": "DebianMed", 
+ "version": "3.5+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.107524.110"
+  ]
+ }, 
+ "homepage": "https://www.broadinstitute.org/gatk/", 
+ "description": "The Genome Analysis Toolkit\n The Genome Analysis Toolkit or GATK is a software package developed at\n the Broad Institute to analyze high-throughput sequencing data. The\n toolkit offers a wide variety of tools, with a primary focus on variant\n discovery and genotyping as well as strong emphasis on data quality\n assurance. Its robust architecture, powerful processing engine and\n high-performance computing features make it capable of taking on\n projects of any size."
+}

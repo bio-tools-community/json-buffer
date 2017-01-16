@@ -1,0 +1,58 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": null
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3218"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "uc", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3071"
+  }, 
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }
+ ], 
+ "version": "1.12-10", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.111351.110"
+  ]
+ }, 
+ "homepage": "http://uc-echo.sourceforge.net/", 
+ "description": "error correction algorithm designed for short-reads from NGS\n ECHO is an error correction algorithm designed for short-reads \n from next-generation sequencing platforms such as Illumina's \n Genome Analyzer II. The algorithm uses a Bayesian framework to \n improve the quality of the reads in a given data set by employing \n maximum a posteriori estimation."
+}

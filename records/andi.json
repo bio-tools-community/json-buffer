@@ -1,0 +1,52 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0289"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0870"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1423"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "andi", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3293"
+  }
+ ], 
+ "version": "0.10-3", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btu815"
+  ]
+ }, 
+ "homepage": "https://github.com/EvolBioInf/andi", 
+ "description": "Efficient Estimation of Evolutionary Distances\n This is the andi program for estimating the evolutionary distance \n between closely related genomes. These distances can be used to rapidly \n infer phylogenies for big sets of genomes. Because andi does not compute \n full alignments, it is so efficient that it scales even up to thousands \n of bacterial genomes."
+}

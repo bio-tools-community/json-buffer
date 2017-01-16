@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "GASiC", 
+ "collection": "DebianMed", 
+ "version": "0.0.r19-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/nar/gks803"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/gasic/", 
+ "description": "genome abundance similarity correction\n One goal of sequencing based metagenomic analysis is the quantitative\n taxonomic assessment of microbial community compositions. However, the\n majority of approaches either quantify at low resolution (e.g. at phylum\n level) or have severe problems discerning highly similar species. Yet,\n accurate quantification on species level is desirable in applications\n such as metagenomic diagnostics or community comparison. GASiC is a\n method to correct read alignment results for the ambiguities imposed by\n similarities of genomes. It has superior performance over existing\n methods."
+}

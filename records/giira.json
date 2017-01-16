@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "GIIRA", 
+ "collection": "DebianMed", 
+ "version": "0.0.20140625-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btt577"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/giira/", 
+ "description": "RNA-Seq driven gene finding incorporating ambiguous reads\n GIIRA is a gene prediction method that identifies potential coding\n regions exclusively based on the mapping of reads from an RNA-Seq\n experiment.  It was foremost designed for prokaryotic gene prediction\n and is able to resolve genes within the expressed region of an operon.\n However, it is also applicable to eukaryotes and predicts exon intron\n structures as well as alternative isoforms."
+}

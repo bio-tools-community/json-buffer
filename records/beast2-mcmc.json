@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "beast2", 
+ "collection": "DebianMed", 
+ "version": "2.4.4+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1371/journal.pcbi.1003537"
+  ]
+ }, 
+ "homepage": "http://www.beast2.org", 
+ "description": "Bayesian MCMC phylogenetic inference\n BEAST is a cross-platform program for Bayesian MCMC analysis of molecular \n sequences. It is entirely orientated towards rooted, time-measured \n phylogenies inferred using strict or relaxed molecular clock models. It\n can be used as a method of reconstructing phylogenies but is also a \n framework for testing evolutionary hypotheses without conditioning on a \n single tree topology. BEAST uses MCMC to average over tree space, so that \n each tree is weighted proportional to its posterior probability. Included \n is a simple to use user-interface program for setting up standard \n analyses and a suit of programs for analysing the results.\n .\n This is no new upstream version of beast-mcmc (1.x) but rather a rewritten\n version."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "CGView", 
+ "collection": "DebianMed", 
+ "version": "0.0.20100111-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/bti054"
+  ]
+ }, 
+ "homepage": "http://wishart.biology.ualberta.ca/cgview/", 
+ "description": "Circular Genome Viewer\n CGView is a Java package for generating high quality, zoomable maps of\n circular genomes. Its primary purpose is to serve as a component of\n sequence annotation pipelines, as a means of generating visual output\n suitable for the web. Feature information and rendering options are\n supplied to the program using an XML file, a tab delimited file, or an\n NCBI ptt file. CGView converts the input into a graphical map (PNG, JPG,\n or Scalable Vector Graphics format), complete with labels, a title,\n legends, and footnotes. In addition to the default full view map, the\n program can generate a series of hyperlinked maps showing expanded\n views. The linked maps can be explored using any web browser, allowing\n rapid genome browsing, and facilitating data sharing. The feature labels\n in maps can be hyperlinked to external resources, allowing CGView maps\n to be integrated with existing web site content or databases.\n .\n In addition to the CGView application, an API is available for\n generating maps from within other Java applications, using the\n cgview package.\n .\n CGView can be used for any of the following:\n  * Bacterial genome visualization and browsing - CGView can be\n    incorporated into bacterial genome annotation pipelines, as a means\n    of generating web content for data visualization and navigation. The\n    PNG and image map content does not require Java applets or special\n    browser plugins.\n  * Genome poster generation - CGView can generate poster-sized images of\n    circular genomes in rasterized image formats or in Scalable Vector\n    Graphics format.\n  * Sequence analysis visualization - CGView can be used to display the\n    output of sequence analysis programs in a circular context.\n .\n CGView features:\n  * Images can be generated in PNG, JPG, or SVG format. See the\n    CGView gallery.\n  * Static or interactive maps can be generated. The interactive maps\n    make use of standard PNG images and HTML image maps. Scalable Vector\n    Graphics output is included in the interactive maps (see example).\n  * The XML input allows complete control over the appearance of the map.\n  * Tab delimited input files and NCBI ptt files can be used as an\n    alternative to the XML format.\n  * The CGView API can be used to incorporate CGView into Java\n    applications.\n  * The CGView applet can be used to incorporate zoomable maps into web\n    pages (see example).\n  * The CGView Server can be used to generate maps online."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "circlator", 
+ "collection": "DebianMed", 
+ "version": "1.4.0-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/s13059-015-0849-0"
+  ]
+ }, 
+ "homepage": "http://sanger-pathogens.github.io/circlator/", 
+ "description": "circularize genome assemblies\n Circlator is a tool to automate assembly circularization for bacterial and\n small eukaryotic genomes and produce accurate linear representations of\n circular sequences."
+}

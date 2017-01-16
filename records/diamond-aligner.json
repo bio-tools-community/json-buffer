@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "diamond", 
+ "collection": "DebianMed", 
+ "version": "0.8.31-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1038/nmeth.3176"
+  ]
+ }, 
+ "homepage": "https://github.com/bbuchfink/diamond", 
+ "description": "accelerated BLAST compatible local sequence aligner\n DIAMOND is a sequence aligner for protein and translated DNA searches\n and functions as a drop-in replacement for the NCBI BLAST software\n tools. It is suitable for protein-protein search as well as DNA-protein\n search on short reads and longer sequences including contigs and\n assemblies, providing a speedup of BLAST ranging up to x20,000."
+}

@@ -1,0 +1,47 @@
+{
+ "function": [
+  {
+   "input": [], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2426"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1912"
+      }, 
+      {
+       "uri": null
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "INDELible", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": null
+  }
+ ], 
+ "version": "1.03-3", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/molbev/msp098"
+  ]
+ }, 
+ "homepage": "http://abacus.gene.ucl.ac.uk/software/indelible/", 
+ "description": "powerful and flexible simulator of biological evolution\n INDELible is a new, portable, and flexible application for biological\n sequence simulation that combines many features in the same place for\n the first time. Using a length-dependent model of indel formation it\n can simulate evolution of multi-partitioned nucleotide, amino-acid,\n or codon data sets through the processes of insertion, deletion, and\n substitution in continuous time.\n .\n Nucleotide simulations may use the general unrestricted model or the\n general time reversible model and its derivatives, and amino-acid\n simulations can be conducted using fifteen different empirical rate\n matrices. Substitution rate heterogeneity can be modelled via the\n continuous and discrete gamma distributions, with or without a proportion\n of invariant sites. INDELible can also simulate under non-homogenous\n and non-stationary conditions where evolutionary models are permitted\n to change across a phylogeny.\n .\n Unique among indel simulation programs, INDELible offers the ability\n to simulate using codon models that exhibit nonsynonymous/synonymous\n rate ratio heterogeneity among sites and/or lineages."
+}

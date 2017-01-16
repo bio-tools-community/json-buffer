@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "circos", 
+ "collection": "DebianMed", 
+ "version": "0.69.3+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.092759.109"
+  ]
+ }, 
+ "homepage": "http://circos.ca/", 
+ "description": "plotter for visualizing data\n Circos visualizes data in a circular layout \u2014 ideal for exploring\n relationships between objects or positions, and creating highly\n informative publication-quality graphics.\n .\n This package provides the Circos plotting engine, which is command-line\n driven (like gnuplot) and fully scriptable."
+}

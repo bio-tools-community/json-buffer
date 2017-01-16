@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "fastlink", 
+ "collection": "DebianMed", 
+ "version": "4.1P-fix100+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.ncbi.nlm.nih.gov/CBBResearch/Schaffer/fastlink.html", 
+ "description": "faster version of pedigree programs of Linkage\n Genetic linkage analysis is a statistical technique used to map\n genes and find the approximate location of disease genes. There\n was a standard software package for genetic linkage called\n LINKAGE. FASTLINK is a significantly modified and improved\n version of the main programs of LINKAGE that runs much faster\n sequentially, can run in parallel, allows the user to recover\n gracefully from a computer crash, and provides abundant new\n documentation. FASTLINK has been used in over 1000 published\n genetic linkage studies.\n .\n This package contains the following programs:\n  ilink:    GEMINI optimization procedure to find a locally\n            optimal value of the theta vector of recombination\n            fractions\n  linkmap:  calculates location scores of one locus against a\n            fixed map of other loci\n  lodscore: compares likelihoods at locally optimal theta\n  mlink:    calculates lod scores and risk with two of more loci\n  unknown:  identify possible genotypes for unknowns"
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "Dialign", 
+ "collection": "DebianMed", 
+ "version": "2.2.1-8", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/15.3.211"
+  ]
+ }, 
+ "homepage": "http://dialign.gobics.de/", 
+ "description": "Segment-based multiple sequence alignment\n DIALIGN2 is a command line tool to perform multiple alignment of\n protein or DNA sequences. It constructs alignments from gapfree pairs\n of similar segments of the sequences. This scoring scheme for\n alignments is the basic difference between DIALIGN and other global or\n local alignment methods. Note that DIALIGN does not employ any kind of\n gap penalty."
+}

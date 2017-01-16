@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ariba", 
+ "collection": "DebianMed", 
+ "version": "2.6.1+ds-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/sanger-pathogens/ariba", 
+ "description": "Antibiotic Resistance Identification By Assembly\n ARIBA is a tool that identifies antibiotic resistance genes by running local\n assemblies.\n The input is a FASTA file of reference genes and paired sequencing reads. ARIBA\n reports which of the reference genes were found, plus detailed information on\n the quality of the assemblies and any variants between the sequencing reads\n and the reference genes."
+}

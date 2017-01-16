@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "DNA", 
+ "collection": "DebianMed", 
+ "version": "3-4", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-12-271"
+  ]
+ }, 
+ "homepage": "http://dnaclust.sourceforge.net/", 
+ "description": "tool for clustering millions of short DNA sequences\n dnaclust is a tool for clustering large number of short DNA sequences.\n The clusters are created in such a way that the \"radius\" of each\n clusters is no more than the specified threshold.\n .\n The input sequences to be clustered should be in Fasta format. The id\n of each sequence is based on the first word of the seqeunce in the Fasta\n format. The first word is the prefix of the header up to the first\n occurance of white space characters in the header. "
+}

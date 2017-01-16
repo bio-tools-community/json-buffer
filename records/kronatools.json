@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "KronaTools", 
+ "collection": "DebianMed", 
+ "version": "2.7+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-12-385"
+  ]
+ }, 
+ "homepage": "https://github.com/marbl/Krona/wiki", 
+ "description": "explore hierarchical metagenomic data with zoomable pie charts\n Krona allows hierarchical data to be explored with zoomable pie charts.\n Krona charts include support for several bioinformatics tools and raw\n data formats. The charts can be viewed with a recent version of any\n major web browser."
+}

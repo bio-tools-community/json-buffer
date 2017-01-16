@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ALTER", 
+ "collection": "DebianMed", 
+ "version": "1.3.3+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/nar/gkq321"
+  ]
+ }, 
+ "homepage": "http://sing.ei.uvigo.es/ALTER/", 
+ "description": "genomic sequences ALignment Transformation EnviRonment\n ALTER (ALignment Transformation EnviRonment) is a tool to transform\n between multiple sequence alignment formats. ALTER focuses on the\n specifications of mainstream alignment and analysis programs rather than\n on the conversion among more or less specific formats."
+}

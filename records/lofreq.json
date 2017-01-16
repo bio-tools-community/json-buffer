@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "lofreq", 
+ "collection": "DebianMed", 
+ "version": "2.1.2+ds-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/nar/gks918"
+  ]
+ }, 
+ "homepage": "http://csb5.github.io/lofreq/", 
+ "description": "sensitive variant calling from sequencing data\n LoFreq* (i.e. LoFreq version 2) is a fast and sensitive\n variant-caller for inferring SNVs and indels from next-generation\n sequencing data. It makes full use of base-call qualities and other\n sources of errors inherent in sequencing (e.g. mapping or base/indel\n alignment uncertainty), which are usually ignored by other methods or\n only used for filtering.\n .\n LoFreq* can run on almost any type of aligned sequencing data\n (e.g. Illumina, IonTorrent or Pacbio) since no machine- or\n sequencing-technology dependent thresholds are used. It automatically\n adapts to changes in coverage and sequencing quality and can\n therefore be applied to a variety of data-sets e.g.\n viral/quasispecies, bacterial, metagenomics or somatic data.\n .\n LoFreq* is very sensitive; most notably, it is able to predict\n variants below the average base-call quality (i.e. sequencing error\n rate). Each variant call is assigned a p-value which allows for\n rigorous false positive control. Even though it uses no\n approximations or heuristics, it is very efficient due to several\n runtime optimizations and also provides a (pseudo-)parallel\n implementation. LoFreq* is generic and fast enough to be applied to\n high-coverage data and large genomes. On a single processor it takes\n a minute to analyze Dengue genome sequencing data with nearly 4000X\n coverage, roughly one hour to call SNVs on a 600X coverage E.coli\n genome and also roughly an hour to run on a 100X coverage human exome\n dataset."
+}

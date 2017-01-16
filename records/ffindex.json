@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ffindex", 
+ "collection": "DebianMed", 
+ "version": "0.9.9.7-3", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.splashground.de/~andy/programs/FFindex/", 
+ "description": "simple index/database for huge amounts of small files\n FFindex is a very simple index/database for huge amounts of small files. The\n files are stored concatenated in one big data file, separated by '\\0'. A\n second file contains a plain text index, giving name, offset and length of\n the small files. The lookup is currently done with a binary search on an\n array made from the index file.\n .\n This package provides the executables."
+}

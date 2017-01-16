@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ABySS", 
+ "collection": "DebianMed", 
+ "version": "2.0.2-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.089532.108"
+  ]
+ }, 
+ "homepage": "http://www.bcgsc.ca/platform/bioinfo/software/abyss", 
+ "description": "de novo, parallel, sequence assembler for short reads\n ABySS is a de novo, parallel, sequence assembler that is designed for\n short reads. It may be used to assemble genome or transcriptome\n sequence data. Parallelization is achieved using MPI, OpenMP and\n pthread."
+}

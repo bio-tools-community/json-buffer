@@ -1,0 +1,125 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0863"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1984"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": null
+      }, 
+      {
+       "uri": null
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3702"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3015"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1948"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3313"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0567"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0361"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0291"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0267"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0278"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1916"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1984"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1984"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": null
+      }, 
+      {
+       "uri": null
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3702"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3015"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1948"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3313"
+      }, 
+      {
+       "uri": null
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3466"
+      }, 
+      {
+       "uri": null
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "jalview", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0080"
+  }, 
+  {
+   "uri": "http://edamontology.org/topic_0081"
+  }
+ ], 
+ "version": "2.10.1.dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.jalview.org", 
+ "description": "multiple alignment editor\n JalView is a Java alignment editor that can work with sequence\n alignment produced by programs implementing alignment algorithms\n such as clustalw, kalign and t-coffee.\n .\n It has lots of features, is actively developed, and will compare\n advantageously to BioEdit, while being free as in free speech !"
+}

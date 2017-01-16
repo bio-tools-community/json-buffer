@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "cufflinks", 
+ "collection": "DebianMed", 
+ "version": "2.2.1-3", 
+ "publications": {
+  "publicationsOtherID": "10.1038/nprot.2012.016", 
+  "publicationsPrimaryID": [
+   "doi:10.1038/nbt.1621"
+  ]
+ }, 
+ "homepage": "http://cufflinks.cbcb.umd.edu", 
+ "description": "Transcript assembly, differential expression and regulation for RNA-Seq\n Cufflinks assembles transcripts, estimates their abundances, and tests for\n differential expression and regulation in RNA-Seq samples. It accepts aligned\n RNA-Seq reads and assembles the alignments into a parsimonious set of\n transcripts. Cufflinks then estimates the relative abundances of these\n transcripts based on how many reads support each one."
+}

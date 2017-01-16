@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "BRIG", 
+ "collection": "DebianMed", 
+ "version": "0.95+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2164-12-402"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/brig/", 
+ "description": "BLAST Ring Image Generator\n BRIG can display circular comparisons between a large number of genomes,\n with a focus on handling genome assembly data.\n  * Images show similarity between a central reference sequence and other\n    sequences as concentric rings.\n  * BRIG will perform all BLAST comparisons and file parsing automatically\n    via a simple GUI.\n  * Contig boundaries and read coverage can be displayed for draft genomes;\n    customized graphs and annotations can be displayed.\n  * Using a user-defined set of genes as input, BRIG can display gene\n    presence, absence, truncation or sequence variation in a set of\n    complete genomes, draft genomes or even raw, unassembled sequence data.\n  * BRIG also accepts SAM-formatted read-mapping files enabling genomic\n    regions present in unassembled sequence data from multiple samples to\n    be compared simultaneously"
+}

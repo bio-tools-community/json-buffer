@@ -1,0 +1,52 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1383"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2572"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0452"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_3498"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_3016"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "dindel", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3175"
+  }
+ ], 
+ "version": "1.01+dfsg-4", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.112326.110"
+  ]
+ }, 
+ "homepage": "https://sites.google.com/site/keesalbers/soft/dindel", 
+ "description": "determines indel calls from short-read data\n Dindel is a program for calling small indels from short-read sequence\n data ('next generation sequence data'). It currently is designed to\n handle only Illumina data.\n .\n Dindel requires a BAM file containing the read-alignments as input. It\n then extracts candidate indels from the BAM file, and realigns the reads\n to candidate haplotypes consisting of these candidate indels. If there\n is sufficient evidence for an alternative haplotype to the reference,\n it will call an indel.\n .\n It is possible to test indels discovered with other methods using Dindel,\n for instance longer indels obtained through assembly methods. Dindel\n will then realign both mapped and unmapped reads to see if the candidate\n indel is supported by the reads.\n .\n Dindel outputs both genotype likelihoods and includes a script to\n convert these to a VCF file with indel and SNP calls.\n .\n There is basic support for outputting realigned BAM files for each\n realignment-window. These realigned BAM files can be used to call SNPs\n near (candidate) indels."
+}

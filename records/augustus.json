@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "AUGUSTUS", 
+ "collection": "DebianMed", 
+ "version": "3.2.3+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-7-62"
+  ]
+ }, 
+ "homepage": "http://bioinf.uni-greifswald.de/augustus/", 
+ "description": "gene prediction in eukaryotic genomes\n AUGUSTUS is a software for gene prediction in eukaryotic genomic sequences\n that is based on a generalized hidden Markov model (HMM), a probabilistic\n model of a sequence and its gene structure. After learning gene structures\n from a reference annotation, AUGUSTUS uses the HMM to recognize genes in a new\n sequence and annotates it with the regions of identified genes. External hints,\n e.g. from RNA sequencing, EST or protein alignments etc. can be used to guide\n and improve the gene finding process. The result is the set of most likely gene\n structures that comply with all given user constraints, if such gene\n structures exist.\n AUGUSTUS already includes prebuilt HMMs for many species, as well as scripts\n to train custom models using annotated genomes."
+}

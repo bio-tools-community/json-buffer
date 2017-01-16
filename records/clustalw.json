@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ClustalQ", 
+ "collection": "DebianMed", 
+ "version": "2.1+lgpl-5", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btm404"
+  ]
+ }, 
+ "homepage": "http://www.clustal.org/clustal2/", 
+ "description": "global multiple nucleotide or peptide sequence alignment\n This program performs an alignment of multiple nucleotide or amino acid\n sequences. It recognizes the format of input sequences and whether the\n sequences are nucleic acid (DNA/RNA) or amino acid (proteins). The output\n format may be selected from in various formats for multiple alignments such as\n Phylip or FASTA. Clustal\u00a0W is very well accepted.\n .\n The output of Clustal\u00a0W can be edited manually but preferably with an\n alignment editor like SeaView or within its companion Clustal\u00a0X. When building\n a model from your alignment, this can be applied for improved database\n searches. The Debian package hmmer creates such in form of an HMM. "
+}

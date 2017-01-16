@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "fsm", 
+ "collection": "DebianMed", 
+ "version": "1.0-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   null
+  ]
+ }, 
+ "homepage": "https://github.com/nvalimak/fsm-lite", 
+ "description": "frequency-based string mining (lite)\n A singe-core implementation of frequency-based substring mining used in\n bioinformatics to extract substrings that discriminate two (or more)\n datasets inside high-throughput sequencing data."
+}

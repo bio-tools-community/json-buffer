@@ -1,0 +1,59 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1916"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1984"
+      }, 
+      {
+       "uri": null
+      }, 
+      {
+       "uri": null
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "muscle", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0080"
+  }
+ ], 
+ "version": "1:3.8.31+dfsg-2", 
+ "publications": {
+  "publicationsOtherID": "10.1186/1471-2105-5-113", 
+  "publicationsPrimaryID": [
+   "10.1093/nar/gkh340"
+  ]
+ }, 
+ "homepage": "http://www.drive5.com/muscle/", 
+ "description": "Multiple alignment program of protein sequences\n MUSCLE is a multiple alignment program for protein sequences. MUSCLE\n stands for multiple sequence comparison by log-expectation. In the\n authors tests, MUSCLE achieved the highest scores of all tested\n programs on several alignment accuracy benchmarks, and is also one of\n the fastest programs out there."
+}

@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "crac", 
+ "collection": "DebianMed", 
+ "version": "2.5.0+dfsg-1", 
+ "publications": {
+  "publicationsOtherID": "10.1186/gb-2013-14-3-r30", 
+  "publicationsPrimaryID": [
+   "10.1186/s12920-016-0178-5"
+  ]
+ }, 
+ "homepage": "http://crac.gforge.inria.fr/", 
+ "description": "integrated RNA-Seq read analysis\n CRAC is a tool to analyze High Throughput Sequencing (HTS) data in\n comparison to a reference genome. It is intended for transcriptomic\n and genomic sequencing reads. More precisely, with transcriptomic\n reads as input, it predicts point mutations, indels, splice junction,\n and chimeric RNAs (ie, non colinear splice junctions). CRAC can also\n output positions and nature of sequence error that it detects in the\n reads. CRAC uses a genome index. This index must be computed before\n running the read analysis. For this sake, use the command \"crac-index\"\n on your genome files. You can then process the reads using the command\n crac. See the man page of CRAC (help file) by typing \"man crac\". CRAC\n requires large amount of main memory on your computer. For processing\n against the Human genome, say 50 million reads of 100 nucleotide each,\n CRAC requires about 40 gigabytes of main memory. Check whether the\n system of your computing server is equipped with sufficient amount of\n memory before launching an analysis."
+}

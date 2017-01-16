@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "blasr", 
+ "collection": "DebianMed", 
+ "version": "5.3+0-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-13-23"
+  ]
+ }, 
+ "homepage": "https://github.com/PacificBiosciences/blasr", 
+ "description": "mapping single-molecule sequencing reads\n Basic local alignment with successive refinement (BLASR) is a method\n for mapping single-molecule sequencing reads against a reference genome.\n Such reads are thousands of bases long, with divergence between them\n and the genome being dominated by insertion and deletion error."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ART", 
+ "collection": "DebianMed", 
+ "version": "20160605+dfsg-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btr708"
+  ]
+ }, 
+ "homepage": "http://www.niehs.nih.gov/research/resources/software/biostatistics/art/", 
+ "description": "simulation tools to generate synthetic next-generation sequencing reads\n ART is a set of simulation tools to generate synthetic next-generation\n sequencing reads. ART simulates sequencing reads by mimicking real\n sequencing process with empirical error models or quality profiles\n summarized from large recalibrated sequencing data. ART can also\n simulate reads using user own read error model or quality profiles. ART\n supports simulation of single-end, paired-end/mate-pair reads of three\n major commercial next-generation sequencing platforms: Illumina's\n Solexa, Roche's 454 and Applied Biosystems' SOLiD. ART can be used to\n test or benchmark a variety of method or tools for next-generation\n sequencing data analysis, including read alignment, de novo assembly,\n SNP and structure variation discovery. ART was used as a primary tool\n for the simulation study of the 1000 Genomes Project . ART is\n implemented in C++ with optimized algorithms and is highly efficient in\n read simulation. ART outputs reads in the FASTQ format, and alignments\n in the ALN format. ART can also generate alignments in the SAM\n alignment or UCSC BED file format. ART can be used together with genome\n variants simulators (e.g. VarSim) for evaluating variant calling tools\n or methods."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "last-align", 
+ "collection": "DebianMed", 
+ "version": "828-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/nar/gkr1274"
+  ]
+ }, 
+ "homepage": "http://last.cbrc.jp/", 
+ "description": "genome-scale comparison of biological sequences\n LAST is software for comparing and aligning sequences, typically DNA or\n protein sequences. LAST is similar to BLAST, but it copes better with very\n large amounts of sequence data. Here are two things LAST is good at:\n .\n  * Comparing large (e.g. mammalian) genomes.\n  * Mapping lots of sequence tags onto a genome.\n .\n The main technical innovation is that LAST finds initial matches based on\n their multiplicity, instead of using a fixed size (e.g. BLAST uses 10-mers).\n This allows one to map tags to genomes without repeat-masking, without becoming\n overwhelmed by repetitive hits. To find these variable-sized matches, it uses\n a suffix array (inspired by Vmatch). To achieve high sensitivity, it uses a\n discontiguous suffix array, analogous to spaced seeds. "
+}

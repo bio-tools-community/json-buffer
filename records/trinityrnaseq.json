@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "trinityrnaseq", 
+ "collection": "DebianMed", 
+ "version": "2.2.0+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1038/nbt.1883"
+  ]
+ }, 
+ "homepage": "http://trinityrnaseq.github.io/", 
+ "description": "RNA-Seq De novo Assembly\n Trinity represents a novel method for the efficient and robust de novo\n reconstruction of transcriptomes from RNA-seq data. Trinity combines three\n independent software modules: Inchworm, Chrysalis, and Butterfly, applied\n sequentially to process large volumes of RNA-seq reads. Trinity partitions\n the sequence data into many individual de Bruijn graphs, each representing the\n transcriptional complexity at a given gene or locus, and then processes\n each graph independently to extract full-length splicing isoforms and to tease\n apart transcripts derived from paralogous genes."
+}

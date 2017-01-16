@@ -1,0 +1,1251 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "add_indels", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0367"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_3181"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1630"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "caf_to_fastq", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0335"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "capillary_to_pairs", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2121"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "chunker", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3359"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "count_sequences", 
+   "functionName": [
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "deinterleave", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3359"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "enumerate_names", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2121"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "expand_nucleotides", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2513"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3607"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "fasta_to_fastq", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0335"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "filter", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2121"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "get_ids", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3289"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "get_seq_flanking_gaps", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0338"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "interleave", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3436"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [], 
+   "functionHandle": "make_random_contigs", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0364"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "merge", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3436"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "replace_bases", 
+   "functionName": [
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "reverse_complement", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0363"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "scaffolds_to_contigs", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2513"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "search_for_seq", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0338"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "sequence_trim", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3192"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "sort_by_size", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2121"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "split_by_base_count", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3359"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "strip_illumina_suffix", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2121"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "to_fake_qual", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3429"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_3607"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1939"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1927"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1936"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1997"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "to_fasta", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0335"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "to_mira_xml", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3429"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2332"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "to_orfs_gff", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0436"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1255"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1975"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "to_perfect_reads", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3429"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "to_random_subset", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0364"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "to_tiling_bam", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3429"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1916"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2572"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "translate", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0371"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "trim_Ns_at_end", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3192"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "trim_contigs", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3192"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "trim_ends", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3192"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "Fastaq", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0091"
+  }
+ ], 
+ "version": "3.14.0-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/sanger-pathogens/Fastaq", 
+ "description": "FASTA and FASTQ file manipulation tools\n Fastaq represents a diverse collection of scripts that perform useful and\n common FASTA/FASTQ manipulation tasks, such as filtering, merging, splitting,\n sorting, trimming, search/replace, etc. Input and output files can be gzipped\n (format is automatically detected) and individual Fastaq commands can be piped\n together."
+}

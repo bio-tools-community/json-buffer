@@ -1,0 +1,76 @@
+ERROR - Term http://edamontology.org/topic_0220 term for label Document, record and content management is deprecated!
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2573"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2572"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2573"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2572"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2048"
+     }, 
+     "dataFormat": [
+      {
+       "uri": null
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "picard-tools", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }, 
+  {
+   "uri": null
+  }
+ ], 
+ "version": "2.8.1+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://broadinstitute.github.io/picard/", 
+ "description": "Command line tools to manipulate SAM and BAM files\n SAM (Sequence Alignment/Map) format is a generic format for storing\n large nucleotide sequence alignments. Picard Tools includes these\n utilities to manipulate SAM and BAM files:\n  AddCommentsToBam                  FifoBuffer\n  AddOrReplaceReadGroups            FilterSamReads\n  BaitDesigner                      FilterVcf\n  BamIndexStats                     FixMateInformation\n  BamToBfq                          GatherBamFiles\n  BedToIntervalList                 GatherVcfs\n  BuildBamIndex                     GenotypeConcordance\n  CalculateHsMetrics                IlluminaBasecallsToFastq\n  CalculateReadGroupChecksum        IlluminaBasecallsToSam\n  CheckIlluminaDirectory            LiftOverIntervalList\n  CheckTerminatorBlock              LiftoverVcf\n  CleanSam                          MakeSitesOnlyVcf\n  CollectAlignmentSummaryMetrics    MarkDuplicates\n  CollectBaseDistributionByCycle    MarkDuplicatesWithMateCigar\n  CollectGcBiasMetrics              MarkIlluminaAdapters\n  CollectHiSeqXPfFailMetrics        MeanQualityByCycle\n  CollectIlluminaBasecallingMetrics MergeBamAlignment\n  CollectIlluminaLaneMetrics        MergeSamFiles\n  CollectInsertSizeMetrics          MergeVcfs\n  CollectJumpingLibraryMetrics      NormalizeFasta\n  CollectMultipleMetrics            PositionBasedDownsampleSam\n  CollectOxoGMetrics                QualityScoreDistribution\n  CollectQualityYieldMetrics        RenameSampleInVcf\n  CollectRawWgsMetrics              ReorderSam\n  CollectRnaSeqMetrics              ReplaceSamHeader\n  CollectRrbsMetrics                RevertOriginalBaseQualitiesAndAddMateCigar\n  CollectSequencingArtifactMetrics  RevertSam\n  CollectTargetedPcrMetrics         SamFormatConverter\n  CollectVariantCallingMetrics      SamToFastq\n  CollectWgsMetrics                 ScatterIntervalsByNs\n  CompareMetrics                    SortSam\n  CompareSAMs                       SortVcf\n  ConvertSequencingArtifactToOxoG   SplitSamByLibrary\n  CreateSequenceDictionary          SplitVcfs\n  DownsampleSam                     UpdateVcfSequenceDictionary\n  EstimateLibraryComplexity         ValidateSamFile\n  ExtractIlluminaBarcodes           VcfFormatConverter\n  ExtractSequences                  VcfToIntervalList\n  FastqToSam                        ViewSam"
+}

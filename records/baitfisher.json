@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "BaitFisher", 
+ "collection": "DebianMed", 
+ "version": "1.0+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/molbev/msw056"
+  ]
+ }, 
+ "homepage": "https://github.com/cmayers/BaitFisher-package", 
+ "description": "software package for designing hybrid enrichment probes\n The BaitFisher package consists of two programs: BaitFisher and BaitFilter.\n .\n BaitFisher was been designed to construct hybrid enrichment baits from\n multiple sequence alignments (MSAs) or annotated features in MSAs. The main\n goal of BaitFisher is to avoid redundancy in the construction of baits by\n designing fewer baits in conserved regions of the MSAs and designing more baits\n in variable regions. This makes use of the fact that hybrid enrichment baits\n can differ to some extends from the target region, which they should capture\n in the enrichment procedure.\n By specifying the allowed distance between baits and the sequences in the MSAs\n the user can control the allowed bait-to-target distance and the degree of\n reduction in the number of baits that are designed.\n See the BaitFisher paper for details.\n .\n BaitFilter was designed (i) to determine whether baits bind unspecifically to\n a reference genome, (ii) to filter baits that only have partial length matches\n to a reference genome, (iii) to determine the optimal bait region in a MSA and\n to convert baits to a format that can be uploaded at a bait constructing\n company. The optimal bait region can be the most conserved region in the MSA\n or the region with the highest number of sequences without gaps or ambiguous\n nucleotides. "
+}

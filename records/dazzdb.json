@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "DAZZ", 
+ "collection": "DebianMed", 
+ "version": "1.0+20160930-2", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/thegenemyers/DAZZ_DB", 
+ "description": "manage nucleotide sequencing read data\n To facilitate the multiple phases of the dazzler assembler, all the read data\n is organized into what is effectively a database of the\n reads and their meta-information. The design goals for this data base\n are as follows:\n  * The database stores the source Pacbio read information in such a\n    way that it can re-create the original input data, thus permitting\n    a user to remove the (effectively redundant) source files. This\n    avoids duplicating the same data, once in the source file and once\n    in the database.\n  * The data base can be built up incrementally, that is new sequence\n    data can be added to the data base over time.\n  * The data base flexibly allows one to store any meta-data desired for\n    reads. This is accomplished with the concept of *tracks* that\n    implementors can add as they need them.\n  * The data is held in a compressed form equivalent to the .dexta and\n    .dexqv files of the data extraction module. Both the .fasta and\n    .quiva information for each read is held in the data base and can be\n    recreated from it. The .quiva information can be added separately and\n    later on if desired.\n  * To facilitate job parallel, cluster operation of the phases of the\n    assembler, the database has a concept of a *current partitioning* in\n    which all the reads that are over a given length and optionally\n    unique to a well, are divided up into *blocks* containing roughly a\n    given number of bases, except possibly the last block which may have\n    a short count. Often programs can be run on blocks or pairs of blocks\n    and each such job is reasonably well balanced as the blocks are all\n    the same size. One must be careful about changing the partition\n    during an assembly as doing so can void the structural validity of\n    any interim block-based results."
+}

@@ -1,0 +1,59 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2572"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2573"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3218"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2048"
+     }, 
+     "dataFormat": [
+      {
+       "uri": null
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2331"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "FastQC", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }
+ ], 
+ "version": "0.11.5+dfsg-6", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/", 
+ "description": "quality control for high throughput sequence data\n FastQC aims to provide a simple way to do some quality control checks on\n raw sequence data coming from high throughput sequencing pipelines. It\n provides a modular set of analyses which you can use to give a quick\n impression of whether your data has any problems of which you should\n be aware before doing any further analysis.\n .\n The main functions of FastQC are\n  * Import of data from BAM, SAM or FastQ files (any variant)\n  * Providing a quick overview to tell you in which areas there may\n    be problems\n  * Summary graphs and tables to quickly assess your data\n  * Export of results to an HTML based permanent report\n  * Offline operation to allow automated generation of reports without\n    running the interactive application"
+}

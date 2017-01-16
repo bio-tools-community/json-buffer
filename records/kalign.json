@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "Kalign", 
+ "collection": "DebianMed", 
+ "version": "1:2.03+20110620-3", 
+ "publications": {
+  "publicationsOtherID": "10.1186/1471-2105-6-298", 
+  "publicationsPrimaryID": [
+   "10.1093/nar/gkn1006"
+  ]
+ }, 
+ "homepage": "http://msa.sbc.su.se/", 
+ "description": "Global and progressive multiple sequence alignment\n Kalign is a command line tool to perform multiple alignment of\n biological sequences. It employs the Muth-Manber string-matching\n algorithm, to improve both the accuracy and speed of the alignment.\n It uses global, progressive alignment approach, enriched by employing\n an approximate string-matching algorithm to calculate sequence\n distances and by incorporating local matches into the otherwise global\n alignment."
+}

@@ -1,0 +1,65 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": null
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_3218"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2048"
+     }, 
+     "dataFormat": [
+      {
+       "uri": null
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "Trimmomatic", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }
+ ], 
+ "version": "0.36+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btu170"
+  ]
+ }, 
+ "homepage": "http://www.usadellab.org/cms/index.php?page=trimmomatic", 
+ "description": "flexible read trimming tool for Illumina NGS data\n Trimmomatic performs a variety of useful trimming tasks for illumina\n paired-end and single ended data.The selection of trimming steps and\n their associated parameters are supplied on the command line.\n .\n The current trimming steps are:\n  * ILLUMINACLIP: Cut adapter and other illumina-specific sequences from\n    the read.\n  * SLIDINGWINDOW: Perform a sliding window trimming, cutting once thes\n    average quality within the window falls below a threshold.\n  * LEADING: Cut bases off the start of a read, if below a threshold quality\n  * TRAILING: Cut bases off the end of a read, if below a threshold quality\n  * CROP: Cut the read to a specified length\n  * HEADCROP: Cut the specified number of bases from the start of the read\n  * MINLENGTH: Drop the read if it is below a specified length\n  * TOPHRED33: Convert quality scores to Phred-33\n  * TOPHRED64: Convert quality scores to Phred-64\n It works with FASTQ (using phred + 33 or phred + 64 quality scores,\n depending on the Illumina pipeline used), either uncompressed or\n gzipp'ed FASTQ. Use of gzip format is determined based on the .gz\n extension."
+}

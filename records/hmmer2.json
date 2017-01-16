@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "hmmer", 
+ "collection": "DebianMed", 
+ "version": "2.3.2-12", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://hmmer.janelia.org/", 
+ "description": "profile hidden Markov models for protein sequence analysis\n HMMER is an implementation of profile hidden Markov model methods for\n sensitive searches of biological sequence databases using multiple sequence\n alignments as queries.\n .\n Given a multiple sequence alignment as input, HMMER builds a statistical\n model called a \"hidden Markov model\" which can then be used as a query into\n a sequence database to find (and/or align) additional homologues of the\n sequence family."
+}

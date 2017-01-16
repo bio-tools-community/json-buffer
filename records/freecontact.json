@@ -1,0 +1,45 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1384"
+     }
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0272"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1547"
+     }
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "freecontact", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0082"
+  }, 
+  {
+   "uri": "http://edamontology.org/topic_0080"
+  }
+ ], 
+ "version": "1.0.21-4", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-15-85"
+  ]
+ }, 
+ "homepage": "http://rostlab.org/", 
+ "description": "fast protein contact predictor\n ${Description}\n .\n This package contains the command line tool freecontact(1)."
+}

@@ -1,0 +1,71 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3198"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_3201"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1916"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2573"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1255"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2305"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "SNP", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0199"
+  }, 
+  {
+   "uri": "http://edamontology.org/topic_0102"
+  }
+ ], 
+ "version": "1.0-3", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btp403"
+  ]
+ }, 
+ "homepage": "https://github.com/magnusmanske/snpomatic", 
+ "description": "fast, stringent short-read mapping software\n High throughput sequencing technologies generate large amounts of short reads.\n Mapping these to a reference sequence consumes large amounts of processing\n time and memory, and read mapping errors can lead to noisy or incorrect\n alignments.\n .\n SNP-o-matic is a fast, stringent short-read mapping software. It supports a\n multitude of output types and formats, for uses in filtering reads, alignments,\n sequence-based genotyping calls, assisted reassembly of contigs etc."
+}

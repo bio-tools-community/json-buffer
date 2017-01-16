@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "MafFilter", 
+ "collection": "DebianMed", 
+ "version": "1.1.0-1+dfsg-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2164-15-53"
+  ]
+ }, 
+ "homepage": "http://biopp.univ-montp2.fr/forge/maffilter", 
+ "description": "process genome alignment in the Multiple Alignment Format\n MafFilter applies a series of \"filters\" to a MAF file, in order to\n clean it, extract data and computer statistics while keeping track of\n the associated meta-data such as genome coordinates and quality scores.\n .\n  * It can process the alignment to remove low-quality / ambiguous /\n    masked regions.\n  * It can export data into a single or multiple alignment file in\n    format such as Fasta or Clustal.\n  * It can read annotation data in GFF or GTF format, and extract the\n    corresponding alignment.\n  * It can perform sliding windows calculations.\n  * It can reconstruct phylogeny/genealogy along the genome alignment.\n  * It can compute population genetics statistics, such as site\n    frequency spectrum, number of fixed/polymorphic sites, etc."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "gubbins", 
+ "collection": "DebianMed", 
+ "version": "2.2.0-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/nar/gku1196"
+  ]
+ }, 
+ "homepage": "https://sanger-pathogens.github.io/gubbins/", 
+ "description": "phylogenetic analysis of genome sequences\n Gubbins supports rapid phylogenetic analysis of large samples of\n recombinant bacterial whole genome sequences.\n .\n Gubbins (Genealogies Unbiased By recomBinations In Nucleotide\n Sequences) is an algorithm that iteratively identifies loci containing\n elevated densities of base substitutions while concurrently constructing\n a phylogeny based on the putative point mutations outside of these\n regions. Simulations demonstrate the algorithm generates highly accurate\n reconstructions under realistic models of short-term bacterial\n evolution, and can be run in only a few hours on alignments of hundreds\n of bacterial genome sequences."
+}

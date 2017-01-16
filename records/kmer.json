@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "kmer", 
+ "collection": "DebianMed", 
+ "version": "0~20150903+r2013-3", 
+ "publications": {
+  "publicationsOtherID": "10.1073/pnas.0307971100", 
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btr285"
+  ]
+ }, 
+ "homepage": "http://kmer.sourceforge.net", 
+ "description": "suite of tools for DNA sequence analysis\n The kmer package is a suite of tools for DNA sequence analysis.\n It provides tools for searching (ESTs, mRNAs, sequencing reads);\n aligning (ESTs, mRNAs, whole genomes); and a variety of analyses\n based on kmers.\n .\n This is a metapackage depending on the executable components of the kmer suite."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "fitGCP", 
+ "collection": "DebianMed", 
+ "version": "0.0.20150429-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btt147"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/fitgcp/", 
+ "description": "fitting genome coverage distributions with mixture models\n Genome coverage, the number of sequencing reads mapped to a position in\n a genome, is an insightful indicator of irregularities within sequencing\n experiments. While the average genome coverage is frequently used within\n algorithms in computational genomics, the complete information available\n in coverage profiles (i.e. histograms over all coverages) is currently\n not exploited to its full extent. Thus, biases such as fragmented or\n erroneous reference genomes often remain unaccounted for. Making this\n information accessible can improve the quality of sequencing experiments\n and quantitative analyses.\n .\n fitGCP is a framework for fitting mixtures of probability distributions\n to genome coverage profiles. Besides commonly used distributions, fitGCP\n uses distributions tailored to account for common artifacts. The mixture\n models are iteratively fitted based on the Expectation-Maximization\n algorithm."
+}

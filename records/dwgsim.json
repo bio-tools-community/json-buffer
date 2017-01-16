@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "dwgsim", 
+ "collection": "DebianMed", 
+ "version": "0.1.11-3", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/nh13/DWGSIM/", 
+ "description": "short sequencing read simulator\n DWGSIM simulates short sequencing reads from modern sequencing platforms.\n DWGSIM generates base error rates using a parametric model, allowing a more\n realisic error profile. It was originally developed for use in evaluating\n short read aligners."
+}

@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "eigensoft", 
+ "collection": "DebianMed", 
+ "version": "6.1.4+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.hsph.harvard.edu/faculty/alkes-price/software/", 
+ "description": "reduction of population bias for genetic analyses\n The EIGENSOFT package combines functionality from the group's population\n genetics methods (Patterson et al. 2006) and their EIGENSTRAT stratification\n method (Price et al. 2006). The EIGENSTRAT method uses principal components\n analysis to explicitly model ancestry differences between cases and\n controls along continuous axes of variation; the resulting correction is\n specific to a candidate marker's variation in frequency across ancestral\n populations, minimizing spurious associations while maximizing power to\n detect true associations. The EIGENSOFT package has a built-in plotting\n script and supports multiple file formats and quantitative phenotypes."
+}

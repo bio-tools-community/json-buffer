@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "infernal", 
+ "collection": "DebianMed", 
+ "version": "1.1.2-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://infernal.janelia.org/", 
+ "description": "inference of RNA secondary structural alignments\n Infernal (\"INFERence of RNA ALignment\") searches DNA sequence\n databases for RNA structure and sequence similarities. It provides an\n implementation of a special variant of profile stochastic context-free\n grammars called covariance models (CMs). A CM is like a sequence\n profile, but it scores a combination of sequence consensus and RNA\n secondary structure consensus, so in many cases, it is more capable of\n identifying RNA homologs that conserve their secondary structure more\n than their primary sequence.\n .\n The tool is an integral component of the Rfam database."
+}

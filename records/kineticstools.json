@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "kineticsTools", 
+ "collection": "DebianMed", 
+ "version": "0.6.1+20161222-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/PacificBiosciences/kineticsTools", 
+ "description": "detection of DNA modifications\n Tools for detecting DNA modifications from single molecule, real-time (SMRT\u00ae)\n sequencing data. This tool implements the P_ModificationDetection module in\n SMRT\u00ae Portal, used by the RS_Modification_Detection and\n RS_Modifications_and_Motif_Detection protocol. Researchers interested in\n understanding or extending the modification detection algorithms can use these\n tools as a starting point.\n .\n This package is part of the SMRTAnalysis suite."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "IDBA", 
+ "collection": "DebianMed", 
+ "version": "1.1.3-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/bts174"
+  ]
+ }, 
+ "homepage": "https://github.com/loneknightpy/idba", 
+ "description": "iterative De Bruijn Graph De Novo short read assembler for transcriptome\n IDBA-Tran is an iterative De Bruijn Graph De Novo short read assembler\n for transcriptome. It is purely de novo assembler based on only RNA\n sequencing reads. IDBA-Tran uses local assembly to reconstructing\n missing k-mers in low-expressed transcripts and then employs progressive\n cutoff on contigs to separate the graph into components. Each component\n corresponds to one gene in most cases and contains not many transcripts.\n A heuristic algorithm based on pair-end reads is then used to find the\n isoforms. "
+}

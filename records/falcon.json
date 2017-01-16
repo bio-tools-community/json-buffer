@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "falcon", 
+ "collection": "DebianMed", 
+ "version": "1.8.6-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1038/nmeth.4035"
+  ]
+ }, 
+ "homepage": "https://github.com/PacificBiosciences/FALCON", 
+ "description": "diploid-aware genome assembly of single-molecule sequencing reads\n FALCON is a set of tools for fast aligning long reads for consensus\n and assembly. It is a simple code collection for efficient assembly of\n haploid and diploid genomes."
+}

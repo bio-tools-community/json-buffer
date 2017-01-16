@@ -1,0 +1,59 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0006"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_3475"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2238"
+    }, 
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0006"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_3475"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "filo", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }, 
+  {
+   "uri": "http://edamontology.org/topic_3071"
+  }, 
+  {
+   "uri": null
+  }
+ ], 
+ "version": "1.1.0-4", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/arq5x/filo", 
+ "description": "FILe and stream Operations\n The following tools are available as part of the filo package:\n .\n groupBy \u2013 mimics the \u201cgroupBy\u201d clause in database systems.\n .\n shuffle \u2013 randomize the order of lines in a file.\n .\n stats \u2013 computes descriptive statistic on a given column of a tab-delimited\n file or stream.\n .\n Because their name is too generic, \u2018shuffle\u2019 and \u2018stats\u2019 are relocated in\n /usr/lib/filo."
+}

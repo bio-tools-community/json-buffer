@@ -1,0 +1,75 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": null
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_3182"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0863"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2554"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_3498"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2330"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "MUMmer", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0080"
+  }
+ ], 
+ "version": "3.23+dfsg-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/gb-2004-5-2-r12"
+  ]
+ }, 
+ "homepage": "http://mummer.sourceforge.net/", 
+ "description": "Efficient sequence alignment of full genomes\n MUMmer is a system for rapidly aligning entire genomes, whether\n in complete or draft form. For example, MUMmer 3.0 can find all\n 20-basepair or longer exact matches between a pair of 5-megabase genomes\n in 13.7 seconds, using 78 MB of memory, on a 2.4 GHz Linux desktop\n computer. MUMmer can also align incomplete genomes; it handles the 100s\n or 1000s of contigs from a shotgun sequencing project with ease, and\n will align them to another set of contigs or a genome using the NUCmer\n program included with the system. If the species are too divergent for\n DNA sequence alignment to detect similarity, then the PROmer program\n can generate alignments based upon the six-frame translations of both\n input sequences."
+}

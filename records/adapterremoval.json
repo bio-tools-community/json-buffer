@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "AdapterRemoval", 
+ "collection": "DebianMed", 
+ "version": "2.2.0-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/s13104-016-1900-2"
+  ]
+ }, 
+ "homepage": "https://github.com/MikkelSchubert/adapterremoval", 
+ "description": "rapid adapter trimming, identification, and read merging of gene sequences\n This program searches for and removes remnant adapter sequences from High-\n Throughput Sequencing (HTS) data and (optionally) trims low quality\n bases from the 3' end of reads following adapter removal. AdapterRemoval\n can analyze both single end and paired end data, and can be used to\n merge overlapping paired-ended reads into (longer) consensus sequences.\n Additionally, the AdapterRemoval may be used to recover a consensus\n adapter sequence for paired-ended data, for which this information is\n not available."
+}

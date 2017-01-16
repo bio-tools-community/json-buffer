@@ -1,0 +1,84 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1207"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3218"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_3192"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0231"
+    }, 
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2955"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_3603"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3696"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3606"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "fastx-toolkit", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }
+ ], 
+ "version": "0.0.14-3", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://hannonlab.cshl.edu/fastx_toolkit/", 
+ "description": "FASTQ/A short nucleotide reads pre-processing tools\n The FASTX-Toolkit is a collection of command line tools for preprocessing\n short nucleotide reads in FASTA and FASTQ formats, usually produced by\n Next-Generation sequencing machines. The main processing of such FASTA/FASTQ\n files is mapping (aligning) the sequences to reference genomes or other\n databases using specialized programs like BWA, Bowtie and many others.\n However, it is sometimes more productive to preprocess the FASTA/FASTQ files\n before mapping the sequences to the genome\u2014manipulating the sequences to\n produce better mapping results. The FASTX-Toolkit tools perform some of these\n preprocessing tasks. "
+}

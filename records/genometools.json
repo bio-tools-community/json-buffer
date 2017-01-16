@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "genometools", 
+ "collection": "DebianMed", 
+ "version": "1.5.9+ds-5", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1109/TCBB.2013.68"
+  ]
+ }, 
+ "homepage": "http://genometools.org", 
+ "description": "versatile genome analysis toolkit\n The GenomeTools contains a collection of useful tools for biological\n sequence analysis and -presentation combined into a single binary.\n .\n The toolkit contains binaries for sequence and annotation handling, sequence\n compression, index structure generation and access, annotation visualization,\n and much more."
+}

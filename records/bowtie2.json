@@ -1,0 +1,138 @@
+ERROR - Term http://edamontology.org/operation_1813 term for label Sequence retrieval is deprecated!
+ERROR - Term http://edamontology.org/operation_0228 term for label Data index analysis is deprecated!
+ERROR - Term http://edamontology.org/operation_0350 term for label Sequence database search (by sequence using word-based methods) is deprecated!
+{
+ "function": [
+  {
+   "input": [], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3211"
+    }, 
+    {
+     "uri": null
+    }
+   ], 
+   "output": []
+  }, 
+  {
+   "input": [], 
+   "functionHandle": "bowtie-build", 
+   "functionName": [
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }
+   ], 
+   "output": []
+  }, 
+  {
+   "input": [], 
+   "functionHandle": "bowtie-inspect", 
+   "functionName": [
+    {
+     "uri": null
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0304"
+    }, 
+    {
+     "uri": null
+    }
+   ], 
+   "output": []
+  }, 
+  {
+   "input": [], 
+   "functionHandle": "bowtie", 
+   "functionName": [
+    {
+     "uri": null
+    }, 
+    {
+     "uri": null
+    }
+   ], 
+   "output": []
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "Bowtie2", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": null
+  }, 
+  {
+   "uri": null
+  }, 
+  {
+   "uri": null
+  }, 
+  {
+   "uri": null
+  }, 
+  {
+   "uri": null
+  }, 
+  {
+   "uri": null
+  }, 
+  {
+   "uri": null
+  }, 
+  {
+   "uri": null
+  }
+ ], 
+ "version": "2.3.0-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1038/nmeth.1923"
+  ]
+ }, 
+ "homepage": "http://bowtie-bio.sourceforge.net/bowtie2", 
+ "description": "ultrafast memory-efficient short read aligner\n is an ultrafast and memory-efficient tool for aligning sequencing reads\n to long reference sequences. It is particularly good at aligning reads\n of about 50 up to 100s or 1,000s of characters, and particularly good\n at aligning to relatively long (e.g. mammalian) genomes.\n .\n Bowtie 2 indexes the genome with an FM Index to keep its memory footprint\n small: for the human genome, its memory footprint is typically\n around 3.2 GB. Bowtie 2 supports gapped, local, and paired-end alignment modes"
+}

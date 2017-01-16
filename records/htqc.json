@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "HTQC", 
+ "collection": "DebianMed", 
+ "version": "1.92.1-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-14-33"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/htqc/", 
+ "description": "Quality control and filtration for illumina sequencing data\n HTQC is a toolkit including statistics tool for illumina high-throughput\n sequencing data, and filtration tools for sequence quality, length, tail\n quality, etc.."
+}

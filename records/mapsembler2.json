@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "mapsembler2", 
+ "collection": "DebianMed", 
+ "version": "2.2.4+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://colibread.inria.fr/mapsembler2/", 
+ "description": "bioinformatics targeted assembly software\n Mapsembler2 is a targeted assembly software.\n It takes as input a set of NGS raw reads (fasta or fastq, gzipped or not)\n and a set of input sequences (starters).\n .\n It first determines if each starter is read-coherent, e.g. whether reads\n confirm the presence of each starter in the original sequence.\n Then for each read-coherent starter, Mapsembler2 outputs its sequence\n neighborhood as a linear sequence or as a graph, depending on the user choice.\n .\n Mapsembler2 may be used for (not limited to):\n  - Validate an assembled sequence (input as starter), e.g. from a de\n    Bruijn graph assembly where read-coherence was not enforced.\n  - Checks if a gene (input as starter) has an homolog in a set of reads\n  - Checks if a known enzyme is present in a metagenomic NGS read set.\n  - Enrich unmappable reads by extending them, possibly making them mappable\n  - Checks what happens at the extremities of a contig\n  - Remove contaminants or symbiont reads from a read set"
+}

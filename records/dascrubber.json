@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "DASCRUBBER", 
+ "collection": "DebianMed", 
+ "version": "0~20160601-2", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://dazzlerblog.wordpress.com/", 
+ "description": "alignment-based scrubbing pipeline for DNA sequencing reads\n The Dazzler Scrubbing Suite produces a set of edited reads that are guaranteed\n to\n  * be continuous stretches of the underlying genome (i.e. no unremoved\n    adapters and not chimers)\n  * have no very low quality stretches (i.e. the error rate never exceeds some\n    reasonable maximum, 20% or so in the case of Pacbio data).\n Its secondary goal is to do so with the minimum removal of data and splitting\n of reads."
+}

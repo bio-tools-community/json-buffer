@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "HarvestTools", 
+ "collection": "DebianMed", 
+ "version": "1.3-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/007351"
+  ]
+ }, 
+ "homepage": "http://harvest.readthedocs.org/en/latest/content/harvest-tools.html", 
+ "description": "archiving and postprocessing for reference-compressed genomic multi-alignments\n HarvestTools is a utility for creating and interfacing with Gingr files,\n which are efficient archives that the Harvest Suite uses to store\n reference-compressed multi-alignments, phylogenetic trees, filtered\n variants and annotations. Though designed for use with Parsnp and Gingr,\n HarvestTools can also be used for generic conversion between standard\n bioinformatics file formats."
+}

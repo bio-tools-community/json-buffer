@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "JELLYFISH", 
+ "collection": "DebianMed", 
+ "version": "2.2.6-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btr011"
+  ]
+ }, 
+ "homepage": "http://www.cbcb.umd.edu/software/jellyfish/", 
+ "description": "count k-mers in DNA sequences\n JELLYFISH is a tool for fast, memory-efficient counting of k-mers in\n DNA. A k-mer is a substring of length k, and counting the occurrences\n of all such substrings is a central step in many analyses of DNA\n sequence. JELLYFISH can count k-mers using an order of magnitude less\n memory and an order of magnitude faster than other k-mer counting\n packages by using an efficient encoding of a hash table and by\n exploiting the \"compare-and-swap\" CPU instruction to increase\n parallelism.\n .\n JELLYFISH is a command-line program that reads FASTA and multi-FASTA\n files containing DNA sequences. It outputs its k-mer counts in an\n binary format, which can be translated into a human-readable text\n format using the \"jellyfish dump\" command."
+}

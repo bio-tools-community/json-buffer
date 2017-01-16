@@ -1,0 +1,62 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_0464"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_0880"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2076"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "aragorn", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0659"
+  }
+ ], 
+ "version": "1.2.38-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/nar/gkh152"
+  ]
+ }, 
+ "homepage": "http://mbio-serv2.mbioekol.lu.se/ARAGORN/", 
+ "description": "tRNA and tmRNA detection in nucleotide sequences\n The program employs heuristic algorithms to predict tRNA secondary structure,\n based on homology with recognized tRNA consensus sequences and ability to form\n a base-paired cloverleaf. tmRNA genes are identified using a modified version\n of the BRUCE program."
+}

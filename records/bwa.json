@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "Burrows", 
+ "collection": "DebianMed", 
+ "version": "0.7.15-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btp324"
+  ]
+ }, 
+ "homepage": "http://bio-bwa.sourceforge.net/", 
+ "description": "Burrows-Wheeler Aligner\n BWA is a software package for mapping low-divergent sequences against\n a large reference genome, such as the human genome. It consists of\n three algorithms: BWA-backtrack, BWA-SW and BWA-MEM. The first\n algorithm is designed for Illumina sequence reads up to 100bp, while\n the rest two for longer sequences ranged from 70bp to 1Mbp. BWA-MEM\n and BWA-SW share similar features such as long-read support and split\n alignment, but BWA-MEM, which is the latest, is generally recommended\n for high-quality queries as it is faster and more accurate. BWA-MEM\n also has better performance than BWA-backtrack for 70-100bp Illumina\n reads."
+}

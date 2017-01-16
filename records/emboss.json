@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "emboss", 
+ "collection": "DebianMed", 
+ "version": "6.6.0+dfsg-6", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1016/S0168-9525(00)02024-2"
+  ]
+ }, 
+ "homepage": "http://emboss.sourceforge.net", 
+ "description": "European molecular biology open software suite\n EMBOSS is a free Open Source software analysis package specially developed for\n the needs of the molecular biology (e.g. EMBnet) user community. The software\n automatically copes with data in a variety of formats and even allows\n transparent retrieval of sequence data from the web. Also, as extensive\n libraries are provided with the package, it is a platform to allow other\n scientists to develop and release software in true open source spirit. EMBOSS\n also integrates a range of currently available packages and tools for sequence\n analysis into a seamless whole. EMBOSS breaks the historical trend towards\n commercial software packages."
+}

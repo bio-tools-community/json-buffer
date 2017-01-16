@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "GENtle", 
+ "collection": "DebianMed", 
+ "version": "1.9+cvs20100605+dfsg1-5", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://gentle.magnusmanske.de", 
+ "description": "suite to plan genetic cloning\n GENtle is a software for DNA and amino acid editing, database management,\n plasmid maps, restriction and ligation, alignments, sequencer data\n import, calculators, gel image display, PCR, and much more."
+}

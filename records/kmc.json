@@ -1,0 +1,55 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3472"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1266"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2330"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "KMC", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0157"
+  }
+ ], 
+ "version": "2.3+dfsg-5", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btv022"
+  ]
+ }, 
+ "homepage": "http://sun.aei.polsl.pl/kmc", 
+ "description": "count kmers in genomic sequences\n The kmc software is designed for counting k-mers (sequences of\n consecutive k symbols) in a set of reads. K-mer counting is\n important for many bioinformatics applications, e.g. developing de Bruijn\n graph assemblers.\n .\n Building de Bruijn graphs is a commonly used approach for genome\n assembly with data from second-generation sequencing.\n Unfortunately, sequencing errors (frequent in practice)\n result in huge memory requirements for de Bruijn graphs, as well\n as long build time. One of the popular approaches to handle this\n problem is filtering the input reads in such a way that unique k-mers\n (very likely obtained as a result of an error) are discarded.\n .\n Thus, KMC scans the raw reads and produces a compact representation\n of all non-unique reads accompanied with number of their occurrences.\n The algorithm implemented in KMC makes use mostly of disk space rather\n than RAM, which allows one to use KMC even on rather typical personal\n computers. When run on high-end servers (what is necessary for KMC\n competitors) it outperforms them in both memory requirements and\n speed of computation. The disk space necessary for computation is in\n order of the size of input data (usually it is smaller)."
+}

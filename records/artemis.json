@@ -1,0 +1,106 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2572"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2305"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1927"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3016"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3020"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3208"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_0362"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2305"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1927"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }, 
+      {
+       "uri": null
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2969"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_3603"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3604"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3579"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1270"
+     }, 
+     "dataFormat": [
+      {
+       "uri": null
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "artemis", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0622"
+  }
+ ], 
+ "version": "16.0.17+dfsg-1", 
+ "publications": {
+  "publicationsOtherID": "10.1093/bioinformatics/btn529", 
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btr703"
+  ]
+ }, 
+ "homepage": "http://www.sanger.ac.uk/science/tools/artemis", 
+ "description": ""
+}

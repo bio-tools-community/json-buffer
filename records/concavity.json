@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "concavity", 
+ "collection": "DebianMed", 
+ "version": "0.1+dfsg.1-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1371/journal.pcbi.1000585"
+  ]
+ }, 
+ "homepage": "http://compbio.cs.princeton.edu/concavity/", 
+ "description": "predictor of protein ligand binding sites from structure and conservation\n ConCavity predicts protein ligand binding sites by combining evolutionary\n sequence conservation and 3D structure.\n .\n ConCavity takes as input a PDB format protein structure and optionally\n files that characterize the evolutionary sequence conservation of the chains\n in the structure file.\n .\n The following result files are produced by default:\n  * Residue ligand binding predictions for each chain (*.scores).\n  * Residue ligand binding predictions in a PDB format file (residue\n    scores placed in the temp. factor field, *_residue.pdb).\n  * Pocket prediction locations in a DX format file (*.dx).\n  * PyMOL script to visualize the predictions (*.pml)."
+}

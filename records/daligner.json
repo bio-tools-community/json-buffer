@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "daligner", 
+ "collection": "DebianMed", 
+ "version": "1.0+20160927-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1007/978-3-662-44753-6_5"
+  ]
+ }, 
+ "homepage": "https://dazzlerblog.wordpress.com", 
+ "description": "local alignment discovery between long nucleotide sequencing reads\n These tools permit one to find all significant local alignments between\n reads encoded in a Dazzler database. The assumption is that the reads are\n from a Pacific Biosciences RS II long read sequencer. That is, the reads\n are long and noisy, up to 15% on average."
+}

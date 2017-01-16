@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ea", 
+ "collection": "DebianMed", 
+ "version": "1.1.2+dfsg-4", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.2174/1875036201307010001"
+  ]
+ }, 
+ "homepage": "https://expressionanalysis.github.io/ea-utils/", 
+ "description": "command-line tools for processing biological sequencing data\n Ea-utils provides a set of command-line tools for processing biological\n sequencing data, barcode demultiplexing, adapter trimming, etc.\n .\n Primarily written to support an Illumina based pipeline - but should work with\n any FASTQs.\n .\n Main Tools are:\n .\n  * fastq-mcf\n Scans a sequence file for adapters, and, based on a log-scaled threshold,\n determines a set of clipping parameters and performs clipping. Also does\n skewing detection and quality filtering.\n  * fastq-multx\n Demultiplexes a fastq. Capable of auto-determining barcode id's based on a\n master set fields. Keeps multiple reads in-sync during demultiplexing. Can\n verify that the reads are in-sync as well, and fail if they're not.\n  * fastq-join\n Similar to audy's stitch program, but in C, more efficient and supports some\n automatic benchmarking and tuning. It uses the same \"squared distance for\n anchored alignment\" as other tools.\n  * varcall\n Takes a pileup and calculates variants in a more easily parameterized manner\n than some other tools."
+}

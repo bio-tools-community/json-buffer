@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "FigTree", 
+ "collection": "DebianMed", 
+ "version": "1.4.2+dfsg-2", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://tree.bio.ed.ac.uk/software/figtree/", 
+ "description": "graphical phylogenetic tree viewer\n FigTree is designed as a graphical viewer of phylogenetic trees and as\n a program for producing publication-ready figures.  In particular it is\n designed to display summarized and annotated trees produced by BEAST."
+}

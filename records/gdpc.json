@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "gdpc", 
+ "collection": "DebianMed", 
+ "version": "2.2.5-6", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.frantz.fi/software/gdpc.php", 
+ "description": "visualiser of molecular dynamic simulations\n gpdc is a graphical program for visualising output data from\n molecular dynamics simulations. It reads input in the standard xyz\n format, as well as other custom formats, and can output pictures of\n each frame in JPG or PNG format."
+}

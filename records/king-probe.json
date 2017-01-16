@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "probe", 
+ "collection": "DebianMed", 
+ "version": "2.13.110909-2", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://kinemage.biochem.duke.edu/software/probe.php", 
+ "description": "Evaluate and visualize protein interatomic packing\n king-probe is a program that allows one to evaluate atomic packing, either\n within or between molecules. It generates \"contact dots\" where\n atoms are in close contact.\n .\n The program king-probe generates \"contact dots\" at points on the van der\n Waals surface of atoms which are in close proximity to other atoms; reading\n atomic coordinates in protein databank (PDB) format files and writing\n color-coded dot lists (spikes where atoms clash) for inclusion in a\n kinemage."
+}

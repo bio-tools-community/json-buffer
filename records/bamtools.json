@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "bamtools", 
+ "collection": "DebianMed", 
+ "version": "2.4.1+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btr174"
+  ]
+ }, 
+ "homepage": "https://github.com/pezmaster31/bamtools/wiki", 
+ "description": "toolkit for manipulating BAM (genome alignment) files\n BamTools facilitates research analysis and data management using BAM\n files.  It copes with the enormous amount of data produced by current\n sequencing technologies that is typically stored in compressed, binary\n formats that are not easily handled by the text-based parsers commonly\n used in bioinformatics research.\n .\n BamTools provides both a C++ API for BAM file support as well as a\n command-line toolkit.\n .\n This is the bamtools command-line toolkit.\n .\n Available bamtools commands:\n  convert  Converts between BAM and a number of other formats\n  count    Prints number of alignments in BAM file(s)\n  coverage Prints coverage statistics from the input BAM file\n  filter   Filters BAM file(s) by user-specified criteria\n  header   Prints BAM header information\n  index    Generates index for BAM file\n  merge    Merge multiple BAM files into single file\n  random   Select random alignments from existing BAM file(s), intended more\n           as a testing tool.\n  resolve  Resolves paired-end reads (marking the IsProperPair flag as needed)\n  revert   Removes duplicate marks and restores original base qualities\n  sort     Sorts the BAM file according to some criteria\n  split    Splits a BAM file on user-specified property, creating a new BAM\n           output file for each value found\n  stats    Prints some basic statistics from input BAM file(s)"
+}

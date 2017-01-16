@@ -1,0 +1,50 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3663"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1255"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1975"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "barrnap", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_0659"
+  }
+ ], 
+ "version": "0.7+dfsg-2", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.vicbioinformatics.com/software.barrnap.shtml", 
+ "description": "rapid ribosomal RNA prediction\n Barrnap (BAsic Rapid Ribosomal RNA Predictor) predicts the location of\n ribosomal RNA genes in genomes. It supports bacteria (5S,23S,16S), archaea\n (5S,5.8S,23S,16S), mitochondria (12S,16S) and eukaryotes (5S,5.8S,28S,18S).\n .\n It takes FASTA DNA sequence as input, and writes GFF3 as output. It uses the\n NHMMER tool that comes with HMMER 3.1 for HMM searching in RNA:DNA style.\n Multithreading is supported and one can expect roughly linear speed-ups\n with more CPUs."
+}

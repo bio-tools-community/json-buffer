@@ -1,0 +1,19 @@
+No DOI at pos 2
+
+No DOI at pos 5
+
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "the", 
+ "collection": "DebianMed", 
+ "version": "2.0+dfsg-8", 
+ "publications": {
+  "publicationsOtherID": "10.1186/1471-2105-9-11", 
+  "publicationsPrimaryID": [
+   "10.12688/f1000research.6924.1"
+  ]
+ }, 
+ "homepage": "http://khmer.readthedocs.org", 
+ "description": "common files for the khmer project tools\n khmer is a library and suite of command line tools for working with DNA\n sequence. It is primarily aimed at short-read sequencing data such as\n that produced by the Illumina platform. khmer takes a k-mer-centric\n approach to sequence analysis, hence the name.\n .\n This package contains common files for liboxli and khmer"
+}

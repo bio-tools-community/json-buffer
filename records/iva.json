@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "iva", 
+ "collection": "DebianMed", 
+ "version": "1.0.8+ds-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btv120"
+  ]
+ }, 
+ "homepage": "https://github.com/sanger-pathogens/iva", 
+ "description": "iterative virus sequence assembler\n IVA is a de novo assembler designed to assemble\n virus genomes that have no repeat sequences,\n using Illumina read pairs sequenced from mixed\n populations at extremely high depth.\n .\n IVA's main algorithm works by iteratively extending\n contigs using aligned read pairs. Its input can be\n just read pairs, or additionally you can provide an\n existing set of contigs to be extended. Alternatively,\n it can take reads together with a reference sequence."
+}

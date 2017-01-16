@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ecoPCR", 
+ "collection": "DebianMed", 
+ "version": "0.5.0+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.grenoble.prabi.fr/trac/ecoPCR/", 
+ "description": "estimate PCR barcode primers quality\n DNA barcoding is a tool for characterizing the species origin using a\n short sequence from a standard position and agreed upon position in the\n genome. To be used as a DNA barcode, a genome locus should vary among\n individuals of the same species only to a minor degree and it should\n vary among species very quickly. From a practical point of view, a\n barcode locus should be \ufb02anked by two conserved regions to design PCR\n primers. Several manually discovered barcode loci like COI, rbcL, 18S,\n 16S and 23S rDNA, or trnH-ps are routinely used today, but no objective\n function has been described to measure their quality in terms of\n universality (barcode coverage, Bc ) or in terms of taxonomical\n discrimination capacity (barcode speci\ufb01city, Bs ).\n .\n ecoPCR is an electronic PCR software developed by LECA and\n Helix-Project. It helps to estimate Barcode primers quality. In\n conjunction with OBITools you can postprocess ecoPCR output to compute\n barcode coverage and barcode speci\ufb01city. New barcode primers can be\n developed using the ecoPrimers software"
+}

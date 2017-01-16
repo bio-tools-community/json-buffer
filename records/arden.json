@@ -1,0 +1,52 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1929"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": null
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2048"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2330"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "ARDEN", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }
+ ], 
+ "version": "1.0-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btt255"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/arden/", 
+ "description": "specificity control for read alignments using an artificial reference\n ARDEN (Artificial Reference Driven Estimation of false positives in NGS\n data) is a novel benchmark that estimates error rates based on real\n experimental reads and an additionally generated artificial reference\n genome. It allows the computation of error rates specifically for a\n dataset and the construction of a ROC-curve. Thereby, it can be used to\n optimize parameters for read mappers, to select read mappers for a\n specific problem or also to filter alignments based on quality\n estimation."
+}

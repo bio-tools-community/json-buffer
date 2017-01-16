@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "Lambda", 
+ "collection": "DebianMed", 
+ "version": "1.0.1-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   null
+  ]
+ }, 
+ "homepage": "https://seqan.github.io/lambda", 
+ "description": "Local Aligner for Massive Biological DatA\n Lambda is a local biosequence aligner optimized for many query sequences\n and searches in protein space. It is compatible to the de facto standard tool\n BLAST, but often outperforms the best currently available alternatives at\n reproducing BLAST\u2019s results and is the fastest compared with the current\n state of the art at comparable levels of sensitivity."
+}

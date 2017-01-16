@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "freebayes", 
+ "collection": "DebianMed", 
+ "version": "1.0.2-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "arXiv:1207.3907"
+  ]
+ }, 
+ "homepage": "https://github.com/ekg/freebayes", 
+ "description": "Bayesian haplotype-based polymorphism discovery and genotyping\n FreeBayes is a Bayesian genetic variant detector designed to find\n small polymorphisms, specifically SNPs (single-nucleotide\n polymorphisms), indels (insertions and deletions), MNPs\n (multi-nucleotide polymorphisms), and complex events (composite\n insertion and substitution events) smaller than the length of a\n short-read sequencing alignment."
+}

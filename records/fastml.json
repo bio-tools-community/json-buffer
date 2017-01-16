@@ -1,0 +1,17 @@
+No DOI at pos 2
+
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "FastML", 
+ "collection": "DebianMed", 
+ "version": "3.1-3", 
+ "publications": {
+  "publicationsOtherID": "10.1093/bioinformatics/18.8.1116", 
+  "publicationsPrimaryID": [
+   "10.1093/nar/gks498"
+  ]
+ }, 
+ "homepage": "http://fastml.tau.ac.il/", 
+ "description": "maximum likelihood ancestral amino-acid sequence reconstruction\n FastML is a bioinformatics tool for the reconstruction of ancestral\n sequences based on the phylogenetic relations between homologous\n sequences. FastML runs several algorithms that reconstruct the ancestral\n sequences with emphasis on an accurate reconstruction of both indels and\n characters. For character reconstruction the previously described FastML\n algorithms are used to efficiently infer the most likely ancestral\n sequences for each internal node of the tree. Both joint and the\n marginal reconstructions are provided. For indels reconstruction the\n sequences are first coded according to the indel events detected within\n the multiple sequence alignment (MSA) and then a state-of-the-art\n likelihood model is used to reconstruct ancestral indels states. The\n results are the most probable sequences, together with posterior\n probabilities for each character and indel at each sequence position for\n each internal node of the tree. FastML is generic and is applicable for\n any type of molecular sequences (nucleotide, protein, or codon\n sequences)."
+}

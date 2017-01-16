@@ -1,0 +1,58 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2044"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1930"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_2945"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2048"
+     }, 
+     "dataFormat": [
+      {
+       "uri": null
+      }, 
+      {
+       "uri": "http://edamontology.org/format_3604"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_1910"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "Mothur", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3697"
+  }
+ ], 
+ "version": "1.38.1.1-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1128/AEM.01541-09"
+  ]
+ }, 
+ "homepage": "http://www.mothur.org", 
+ "description": "sequence analysis suite for research on microbiota\n Mothur seeks to develop a single piece of open-source, expandable\n software to fill the bioinformatics needs of the microbial ecology\n community. It has incorporated the functionality of dotur, sons,\n treeclimber, s-libshuff, unifrac, and much more. In addition to improving\n the flexibility of these algorithms, a number of other features including\n calculators and visualization tools were added."
+}

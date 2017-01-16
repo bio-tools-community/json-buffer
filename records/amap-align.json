@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "amap-align", 
+ "collection": "DebianMed", 
+ "version": "2.2-7", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btl311"
+  ]
+ }, 
+ "homepage": "http://code.google.com/p/amap-align/", 
+ "description": "Protein multiple alignment by sequence annealing\n AMAP is a command line tool to perform multiple alignment of peptidic\n sequences. It utilizes posterior decoding, and a sequence-annealing\n alignment, instead of the traditional progressive alignment method. It is\n the only alignment program that allows one to control the sensitivity /\n specificity tradeoff.  It is based on the ProbCons source code, but\n uses alignment metric accuracy and eliminates the consistency\n transformation.\n .\n The java visualisation tool of AMAP 2.2 is not yet packaged in Debian."
+}

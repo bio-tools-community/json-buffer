@@ -1,0 +1,65 @@
+{
+ "function": [
+  {
+   "input": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1255"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1975"
+      }
+     ]
+    }
+   ], 
+   "functionHandle": "summary", 
+   "functionName": [
+    {
+     "uri": "http://edamontology.org/operation_3194"
+    }, 
+    {
+     "uri": "http://edamontology.org/operation_2121"
+    }
+   ], 
+   "output": [
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_1255"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_1975"
+      }
+     ]
+    }, 
+    {
+     "dataType": {
+      "uri": "http://edamontology.org/data_2048"
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2330"
+      }
+     ]
+    }
+   ]
+  }
+ ], 
+ "sourceRegistry": "", 
+ "name": "aegean", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }
+ ], 
+ "version": "0.15.2+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-13-187"
+  ]
+ }, 
+ "homepage": "http://standage.github.io/AEGeAn", 
+ "description": "integrated genome analysis toolkit\n The AEGeAn Toolkit is designed for the Analysis and Evaluation of Genome\n Annotations. The toolkit includes a variety of analysis programs, e.g. for\n comparing distinct sets of gene structure annotations (ParsEval), computation\n of gene loci (LocusPocus) and more."
+}

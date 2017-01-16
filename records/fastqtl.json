@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "FastQTL", 
+ "collection": "DebianMed", 
+ "version": "2.184+dfsg-6", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btv722"
+  ]
+ }, 
+ "homepage": "http://fastqtl.sourceforge.net/", 
+ "description": "Quantitative Trait Loci (QTL) mapper in cis for molecular phenotypes\n The goal of FastQTL is to identify single-nucleotide polymorphisms (SNPs)\n which are significantly associated with various molecular phenotypes\n (i.e. expression of known genes, cytosine methylation levels, etc).\n It performs scans for all possible phenotype-variant pairs in cis\n (i.e. variants located within a specific window around a phenotype).\n FastQTL implements a new permutation scheme (Beta approximation) to accurately\n and rapidly correct for multiple-testing at both the genotype and phenotype\n levels."
+}
