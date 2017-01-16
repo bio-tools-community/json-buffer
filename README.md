@@ -1,6 +1,6 @@
 # json-buffer
 
-This is an intermediate repository of JSON data records in [biotoolsSchema format](https://github.com/bio-tools/biotoolsSchema), that are generated from __multiple sources of tool__(s) __descriptions__. Each of the sources should use its __own branch__(!) of these JSON data records, allowing eventual __merging__ of records that are described in multiple sources. The non-conflicting and the merged records should then be uploaded to [Bio.Tools](http://bio.tools).
+This is an intermediate repository of JSON data records in [biotoolsSchema format](https://github.com/bio-tools/biotoolsSchema) (see also [diagram](https://raw.githubusercontent.com/bio-tools/biotoolsSchema/master/versions/biotools-2.0.0/docs/biotools-2.0.0.png)), that are generated from __multiple sources of tool__(s) __descriptions__. Each of the sources should use its __own branch__(!) of these JSON data records, allowing eventual __merging__ of records that are described in multiple sources. The non-conflicting and the merged records should then be uploaded to [Bio.Tools](http://bio.tools).
 
 ## Current sources of tool descriptions imported into json-buffer:
 
