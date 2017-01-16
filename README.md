@@ -11,4 +11,5 @@ This is an intermediate repository of JSON data records in [biotoolsSchema forma
  
   * __Bio.Tools__ (__*NB.* that this is a special case:__ ONLY the records already present in json-buff should have updates from *bio.tools* committed to a corresponding *branch*)
   * __SEQwiki__
+  * __biii.info/NEUBIAS__
   * _etc._ ...
