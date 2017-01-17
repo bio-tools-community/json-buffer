@@ -14,10 +14,10 @@
        "uri": "http://edamontology.org/format_1929"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1961"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1982"
       }, 
       {
        "uri": "http://edamontology.org/format_3702"
@@ -68,16 +68,13 @@
        "uri": "http://edamontology.org/format_1984"
       }, 
       {
-       "uri": "http://edamontology.org/format_1984"
-      }, 
-      {
        "uri": "http://edamontology.org/format_1929"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1961"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1982"
       }, 
       {
        "uri": "http://edamontology.org/format_3702"
@@ -92,13 +89,13 @@
        "uri": "http://edamontology.org/format_3313"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_3603"
       }, 
       {
        "uri": "http://edamontology.org/format_3466"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_3604"
       }
      ]
     }

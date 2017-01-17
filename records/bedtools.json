@@ -5,7 +5,9 @@
  "collection": "DebianMed", 
  "version": "2.26.0+dfsg-4", 
  "publications": {
-  "publicationsPrimaryID": "None"
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btq033"
+  ]
  }, 
  "homepage": "https://github.com/arq5x/bedtools2", 
  "description": "suite of utilities for comparing genomic features\n The BEDTools utilities allow one to address common genomics tasks such as\n finding feature overlaps and computing coverage. The utilities are largely\n based on four widely-used file formats: BED, GFF/GTF, VCF, and SAM/BAM. Using\n BEDTools, one can develop sophisticated pipelines that answer complicated\n research questions by streaming several BEDTools together.\n .\n The groupBy utility is distributed in the filo package."

@@ -53,7 +53,7 @@
        "uri": "http://edamontology.org/format_1929"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1936"
       }
      ]
     }, 
@@ -79,7 +79,7 @@
      }, 
      "dataFormat": [
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_3701"
       }
      ]
     }

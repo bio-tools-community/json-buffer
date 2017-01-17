@@ -1,4 +1,3 @@
-ERROR - Term http://edamontology.org/topic_0220 term for label Document, record and content management is deprecated!
 {
  "function": [
   {
@@ -23,7 +22,7 @@ ERROR - Term http://edamontology.org/topic_0220 term for label Document, record 
      "uri": null
     }, 
     {
-     "uri": null
+     "uri": "http://edamontology.org/operation_3695"
     }, 
     {
      "uri": null
@@ -49,7 +48,7 @@ ERROR - Term http://edamontology.org/topic_0220 term for label Document, record 
      }, 
      "dataFormat": [
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_2330"
       }
      ]
     }

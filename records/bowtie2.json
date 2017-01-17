@@ -1,6 +1,3 @@
-ERROR - Term http://edamontology.org/operation_1813 term for label Sequence retrieval is deprecated!
-ERROR - Term http://edamontology.org/operation_0228 term for label Data index analysis is deprecated!
-ERROR - Term http://edamontology.org/operation_0350 term for label Sequence database search (by sequence using word-based methods) is deprecated!
 {
  "function": [
   {
@@ -11,7 +8,7 @@ ERROR - Term http://edamontology.org/operation_0350 term for label Sequence data
      "uri": "http://edamontology.org/operation_3211"
     }, 
     {
-     "uri": null
+     "uri": "http://edamontology.org/operation_0292"
     }
    ], 
    "output": []
@@ -21,49 +18,7 @@ ERROR - Term http://edamontology.org/operation_0350 term for label Sequence data
    "functionHandle": "bowtie-build", 
    "functionName": [
     {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
-    }, 
-    {
-     "uri": null
+     "uri": "http://edamontology.org/operation_3211"
     }
    ], 
    "output": []
@@ -103,28 +58,7 @@ ERROR - Term http://edamontology.org/operation_0350 term for label Sequence data
  "collection": "DebianMed", 
  "topic": [
   {
-   "uri": null
-  }, 
-  {
-   "uri": null
-  }, 
-  {
-   "uri": null
-  }, 
-  {
-   "uri": null
-  }, 
-  {
-   "uri": null
-  }, 
-  {
-   "uri": null
-  }, 
-  {
-   "uri": null
-  }, 
-  {
-   "uri": null
+   "uri": "http://edamontology.org/topic_0622"
   }
  ], 
  "version": "2.3.0-1", 

@@ -21,7 +21,7 @@
        "uri": "http://edamontology.org/format_1912"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1997"
       }
      ]
     }
@@ -33,7 +33,7 @@
  "collection": "DebianMed", 
  "topic": [
   {
-   "uri": null
+   "uri": "http://edamontology.org/topic_3168"
   }
  ], 
  "version": "1.03-3", 

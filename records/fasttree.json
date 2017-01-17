@@ -5,7 +5,9 @@
  "collection": "DebianMed", 
  "version": "2.1.9-1", 
  "publications": {
-  "publicationsPrimaryID": "None"
+  "publicationsPrimaryID": [
+   "10.1371/journal.pone.0009490"
+  ]
  }, 
  "homepage": "http://www.microbesonline.org/fasttree/", 
  "description": "phylogenetic trees from alignments of nucleotide or protein sequences\n FastTree infers approximately-maximum-likelihood phylogenetic trees from\n alignments of nucleotide or protein sequences. It handles alignments\n with up to a million of sequences in a reasonable amount of time and\n memory. For large alignments, FastTree is 100-1,000 times faster than\n PhyML 3.0 or RAxML 7.\n .\n FastTree is more accurate than PhyML 3 with default settings, and much\n more accurate than the distance-matrix methods that are traditionally\n used for large alignments. FastTree uses the Jukes-Cantor or generalized\n time-reversible (GTR) models of nucleotide evolution and the JTT\n (Jones-Taylor-Thornton 1992) model of amino acid evolution. To account\n for the varying rates of evolution across sites, FastTree uses a single\n rate for each site (the \"CAT\" approximation). To quickly estimate the\n reliability of each split in the tree, FastTree computes local support\n values with the Shimodaira-Hasegawa test (these are the same as PhyML 3's \n \"SH-like local supports\").\n .\n This package contains a single threaded version (fasttree) and a\n parallel version which uses OpenMP (fasttreMP)."

@@ -5,7 +5,12 @@
     {
      "dataType": {
       "uri": "http://edamontology.org/data_1384"
-     }
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_3281"
+      }
+     ]
     }
    ], 
    "functionHandle": "summary", 
@@ -18,7 +23,15 @@
     {
      "dataType": {
       "uri": "http://edamontology.org/data_1547"
-     }
+     }, 
+     "dataFormat": [
+      {
+       "uri": "http://edamontology.org/format_2352"
+      }, 
+      {
+       "uri": "http://edamontology.org/format_2330"
+      }
+     ]
     }
    ]
   }

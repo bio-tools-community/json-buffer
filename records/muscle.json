@@ -16,7 +16,7 @@
    "functionHandle": "summary", 
    "functionName": [
     {
-     "uri": null
+     "uri": "http://edamontology.org/operation_0492"
     }
    ], 
    "output": [
@@ -29,10 +29,10 @@
        "uri": "http://edamontology.org/format_1984"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1982"
       }, 
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_1997"
       }
      ]
     }
