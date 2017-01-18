@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "mira", 
+ "collection": "DebianMed", 
+ "version": "4.9.6-2", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.1917404"
+  ]
+ }, 
+ "homepage": "http://chevreux.org/projects_mira.html", 
+ "description": "extract of RFAM 12 rRNA database\n The mira genome fragment assembler is a specialised assembler for\n sequencing projects classified as 'hard' due to high number of similar\n repeats.\n .\n This package contains data to enable MIRA and MIRABAIT to search for rRNA and\n rDNA. This data set contains an excerpt of the RFAM database."
+}

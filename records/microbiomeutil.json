@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "microbiomeutil", 
+ "collection": "DebianMed", 
+ "version": "20101212+dfsg1-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.112730.110"
+  ]
+ }, 
+ "homepage": "http://microbiomeutil.sourceforge.net/", 
+ "description": "Microbiome Analysis Utilities\n The microbiomeutil package comes with the following utilities:\n  * ChimeraSlayer:  ChimeraSlayer for chimera detection.\n  * NAST-iEr:       NAST-based alignment tool.\n  * WigeoN:         A reimplementation of the Pintail 16S anomaly\n                    detection utility\n  * RESOURCES:      Reference 16S sequences and NAST-alignments that\n                    the tools above leverage."
+}

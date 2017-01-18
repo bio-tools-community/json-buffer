@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "murasaki", 
+ "collection": "DebianMed", 
+ "version": "1.68.6-6", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1371/journal.pone.0012651"
+  ]
+ }, 
+ "homepage": "http://murasaki.dna.bio.keio.ac.jp/wiki/", 
+ "description": "homology detection tool across multiple large genomes\n Murasaki is a scalable and fast, language theory-based homology\n detection tool across multiple large genomes. It enable whole-genome\n scale multiple genome global alignments. Supports unlimited length\n gapped-seed patterns and unique TF-IDF based filtering.\n .\n Murasaki is an anchor alignment software, which is\n  * exteremely fast (17 CPU hours for whole Human x Mouse genome (with\n    40 nodes: 52 wall minutes))\n  * scalable (Arbitrarily parallelizable across multiple nodes using MPI.\n    Even a single node with 16GB of ram can handle over 1Gbp of sequence.)\n  * unlimited pattern length\n  * repeat tolerant\n  * intelligent noise reduction"
+}

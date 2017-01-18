@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "prime", 
+ "collection": "DebianMed", 
+ "version": "1.0.11-5", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1073/pnas.0806251106"
+  ]
+ }, 
+ "homepage": "http://prime.sbc.su.se", 
+ "description": "bayesian estimation of gene trees taking the species tree into account\n PrIME (Probabilistic Integrated Models of Evolution) is a package\n supporting inference of evolutionary parameters in a Bayesian framework\n using Markov chain Monte Carlo simulation. A distinguishing feature of\n PrIME is that the species tree is taken into account when analyzing gene\n trees.\n .\n The input data to PrIME is a multiple sequence alignment in FASTA format\n and the output data contains trees in Newick format."
+}

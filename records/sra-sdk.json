@@ -1,20 +1,4 @@
-processing /home/moeller/git/debian-med/sra-sdk...
-ERROR - No matching operation term for label File handling!
-//owl:Class[rdfs:label/text()='File handling' and starts-with(@rdf:about, 'http://edamontology.org/operation')]/@rdf:about
-ERROR - No matching operation term for label Statistics!
-//owl:Class[rdfs:label/text()='Statistics' and starts-with(@rdf:about, 'http://edamontology.org/operation')]/@rdf:about
-ERROR - No matching format term for label SRA!
-//owl:Class[rdfs:label/text()='SRA' and starts-with(@rdf:about, 'http://edamontology.org/format')]/@rdf:about
-ERROR - No matching format term for label SRA!
-//owl:Class[rdfs:label/text()='SRA' and starts-with(@rdf:about, 'http://edamontology.org/format')]/@rdf:about
-ERROR - No matching format term for label Text!
-//owl:Class[rdfs:label/text()='Text' and starts-with(@rdf:about, 'http://edamontology.org/format')]/@rdf:about
 {
- "topic": [
-  {
-   "uri": "http://edamontology.org/topic_3168"
-  }
- ], 
  "function": [
   {
    "input": [
@@ -24,7 +8,7 @@ ERROR - No matching format term for label Text!
      }, 
      "dataFormat": [
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_3698"
       }, 
       {
        "uri": "http://edamontology.org/format_2573"
@@ -57,7 +41,7 @@ ERROR - No matching format term for label Text!
      }, 
      "dataFormat": [
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_3698"
       }, 
       {
        "uri": "http://edamontology.org/format_3699"
@@ -82,7 +66,7 @@ ERROR - No matching format term for label Text!
      }, 
      "dataFormat": [
       {
-       "uri": null
+       "uri": "http://edamontology.org/format_2330"
       }, 
       {
        "uri": "http://edamontology.org/format_2332"
@@ -95,17 +79,20 @@ ERROR - No matching format term for label Text!
    ]
   }
  ], 
- "version": "2.8.1+dfsg-3", 
  "sourceRegistry": "", 
  "name": "sra-sdk", 
+ "collection": "DebianMed", 
+ "topic": [
+  {
+   "uri": "http://edamontology.org/topic_3168"
+  }
+ ], 
+ "version": "2.8.1+dfsg-3", 
  "publications": {
   "publicationsPrimaryID": [
    "10.1093/nar/gkp998"
   ]
  }, 
- "interface": {}, 
  "homepage": "https://github.com/ncbi/sra-tools/", 
- "collection": "DebianMed", 
  "description": "utilities for the NCBI Sequence Read Archive\n Tools for reading the SRA archive, generally by converting individual runs\n into some commonly used format such as fastq.\n .\n The textual dumpers \"sra-dump\" and \"vdb-dump\" are provided in this\n release as an aid in visual inspection. It is likely that their\n actual output formatting will be changed in the near future to a\n stricter, more formalized representation[s]. PLEASE DO NOT RELY UPON\n THE OUTPUT FORMAT SEEN IN THIS RELEASE.\n .\n The \"help\" information will be improved in near future releases, and\n the tool options will become standardized across the set. More documentation\n will also be provided documentation on the NCBI web site.\n .\n Tool options may change in the next release. Version 1 tool options\n will remain supported wherever possible in order to preserve\n operation of any existing scripts."
 }
-done processing /home/moeller/git/debian-med/sra-sdk...

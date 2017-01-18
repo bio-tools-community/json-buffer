@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ncbi", 
+ "collection": "DebianMed", 
+ "version": "6.1.20170106-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.ncbi.nlm.nih.gov/IEB/ToolBox/", 
+ "description": "NCBI libraries for biology applications\n The NCBI Software Development Toolkit was developed for the production and\n distribution of GenBank, Entrez, BLAST, and related services by NCBI.  It\n allows you to read and write NCBI ASN.1 files, builds Blast or Entrez, etc."
+}

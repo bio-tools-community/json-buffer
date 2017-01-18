@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "fastahack", 
+ "collection": "DebianMed", 
+ "version": "0.0+20160702-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/ekg/fastahack", 
+ "description": "library for indexing and sequence extraction from FASTA files (lib)\n fastahack is a small application for indexing and extracting sequences and\n subsequences from FASTA files.  The included Fasta.cpp library provides a FASTA\n reader and indexer that can be embedded into applications which would benefit\n from directly reading subsequences from FASTA files.  The library automatically\n handles index file generation and use.\n .\n Features:\n  * FASTA index (.fai) generation for FASTA files\n  * Sequence extraction\n  * Subsequence extraction\n  * Sequence statistics (currently only entropy is provided)\n .\n Sequence and subsequence extraction use fseek64 to provide fastest-possible\n extraction without RAM-intensive file loading operations.  This makes fastahack\n a useful tool for bioinformaticists who need to quickly extract many\n subsequences from a reference FASTA sequence.\n .\n This package contains the dynamic library."
+}

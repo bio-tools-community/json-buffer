@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "HyPhy", 
+ "collection": "DebianMed", 
+ "version": "2.2.7+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/bti079"
+  ]
+ }, 
+ "homepage": "http://hyphy.org/", 
+ "description": "Hypothesis testing using Phylogenies (GTK+ gui)\n HyPhy is an open-source software package for the analysis of genetic\n sequences using techniques in phylogenetics, molecular evolution, and\n machine learning. It features a complete graphical user interface (GUI)\n and a rich scripting language for limitless customization of analyses.\n Additionally, HyPhy features support for parallel computing environments\n (via message passing interface) and it can be compiled as a shared\n library and called from other programming environments such as Python or\n R.  Continued development of HyPhy is currently supported in part by an\n NIGMS R01 award 1R01GM093939.\n .\n This package contains the GTK+ gui."
+}

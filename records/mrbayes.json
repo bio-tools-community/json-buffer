@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "MrBayes", 
+ "collection": "DebianMed", 
+ "version": "3.2.6+dfsg-1", 
+ "publications": {
+  "publicationsOtherID": "10.1093/bioinformatics/17.8.754", 
+  "publicationsPrimaryID": [
+   "10.1093/sysbio/sys029"
+  ]
+ }, 
+ "homepage": "http://mrbayes.csit.fsu.edu/", 
+ "description": "Bayesian Inference of Phylogeny\n Bayesian inference of phylogeny is based upon a quantity called the posterior\n probability distribution of trees, which is the probability of a tree \n conditioned on the observations. The conditioning is accomplished using \n Bayes's theorem. The posterior probability distribution of trees is \n impossible to calculate analytically; instead, MrBayes uses a simulation \n technique called Markov chain Monte Carlo (or MCMC) to approximate the \n posterior probabilities of trees."
+}

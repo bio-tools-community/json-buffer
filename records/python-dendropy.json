@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "DendroPy", 
+ "collection": "DebianMed", 
+ "version": "4.2.0+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/btq228"
+  ]
+ }, 
+ "homepage": "http://dendropy.org/", 
+ "description": "DendroPy Phylogenetic Computing Library (Python 2)\n DendroPy is a Python library for phylogenetic computing. It provides\n classes and functions for the simulation, processing, and manipulation\n of phylogenetic trees and character matrices, and supports the reading\n and writing of phylogenetic data in a range of formats, such as NEXUS,\n NEWICK, NeXML, Phylip, FASTA, etc. Application scripts for performing\n some useful phylogenetic operations, such as data conversion and tree\n posterior distribution summarization, are also distributed and installed\n as part of the library. DendroPy can thus function as a stand-alone\n library for phylogenetics, a component of more complex multi-library\n phyloinformatic pipelines, or as a scripting \u201cglue\u201d that assembles and\n drives such pipelines.\n .\n This package provides python2 modules."
+}

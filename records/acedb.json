@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "acedb", 
+ "collection": "DebianMed", 
+ "version": "4.9.39+dfsg.02-1", 
+ "publications": {
+  "publicationsOtherID": "10.1109/5992.764215", 
+  "publicationsPrimaryID": [
+   "10.1016/0378-1119(95)00714-8"
+  ]
+ }, 
+ "homepage": "http://www.acedb.org/", 
+ "description": "visualisation of sequence similarity\n For the analysis of biological sequences, a general principle is to\n compare corresponding regions between related proteins, RNA or DNA.\n .\n Dotter, as an interactive dotplot with varying thresholds, displays\n graphically the similarity of DNA or protein sequence to itself or\n another sequence."
+}

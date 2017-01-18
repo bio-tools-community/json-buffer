@@ -1,0 +1,15 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "pbsuite", 
+ "collection": "DebianMed", 
+ "version": "15.8.24+dfsg-2", 
+ "publications": {
+  "publicationsOtherID": "10.1371/journal.pone.0047768", 
+  "publicationsPrimaryID": [
+   "10.1186/1471-2105-15-180"
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/pb-jelly", 
+ "description": "software for Pacific Biosciences sequencing data\n The PBSuite contains two projects created for analysis of\n Pacific Biosciences long-read sequencing data.\n  * PBJelly - genome upgrading tool\n  * PBHoney - structural variation discovery"
+}

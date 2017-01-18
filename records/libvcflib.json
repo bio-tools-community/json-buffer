@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "vcflib", 
+ "collection": "DebianMed", 
+ "version": "1.0.0~rc1+dfsg1-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   null
+  ]
+ }, 
+ "homepage": "https://github.com/ekg/vcflib", 
+ "description": "C++ library for parsing and manipulating VCF files\n The Variant Call Format (VCF) is a flat-file, tab-delimited textual format\n intended to concisely describe reference-indexed variations between\n individuals. VCF provides a common interchange format for the description of\n variation in individuals and populations of samples, and has become the defacto\n standard reporting format for a wide array of genomic variant detectors.\n .    \n vcflib provides methods to manipulate and interpret sequence variation as it\n can be described by VCF. It is both:\n .\n  * an API for parsing and operating on records of genomic variation as it can\n    be described by the VCF format,\n  * and a collection of command-line utilities for executing complex\n    manipulations on VCF files."
+}

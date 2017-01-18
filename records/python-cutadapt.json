@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "python", 
+ "collection": "DebianMed", 
+ "version": "1.12-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.14806/ej.17.1.200"
+  ]
+ }, 
+ "homepage": "http://pypi.python.org/pypi/cutadapt", 
+ "description": "Clean biological sequences from high-throughput sequencing reads (Python 2)\n Cutadapt helps with biological sequence clean tasks by finding the adapter\n or primer sequences in an error-tolerant way.\n It can also modify and filter reads in various ways.\n Adapter sequences can contain IUPAC wildcard characters.\n Also, paired-end reads and even colorspace data is supported.\n If you want, you can also just demultiplex your input data, without removing\n adapter sequences at all.\n .\n This package contains the Python 2 module."
+}

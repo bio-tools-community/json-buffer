@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "fermi", 
+ "collection": "DebianMed", 
+ "version": "0.1-2", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/lh3/fermi-lite", 
+ "description": "tool for assembling Illumina short reads in small regions\n Fml-asm is a command-line tool for assembling Illumina short reads in regions\n from 100bp to 10 million bp in size, based on the fermi-lite library.\n It is largely a light-weight in-memory version of fermikit without\n generating any intermediate files. It inherits the performance, the relatively\n small memory footprint and the features of fermikit. In particular, fermi-lite\n is able to retain heterozygous events and thus can be used to assemble diploid\n regions for the purpose of variant calling."
+}

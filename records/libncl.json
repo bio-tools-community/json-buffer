@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "NCL", 
+ "collection": "DebianMed", 
+ "version": "2.1.18+dfsg-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   null
+  ]
+ }, 
+ "homepage": "http://sourceforge.net/projects/ncl/", 
+ "description": "tools to deal with NEXUS files\n The NEXUS Class Library is a C++ library for parsing NEXUS files.\n .\n The NEXUS file format is widely used in bioinformatics. Several popular\n phylogenetic programs such as Paup, MrBayes, Mesquite, and MacClade use\n this format."
+}

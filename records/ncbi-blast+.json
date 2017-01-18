@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "ncbi", 
+ "collection": "DebianMed", 
+ "version": "2.6.0-1", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/", 
+ "description": "next generation suite of BLAST sequence search tools\n The Basic Local Alignment Search Tool (BLAST) is the most widely\n used sequence similarity tool. There are versions of BLAST that\n compare protein queries to protein databases, nucleotide queries\n to nucleotide databases, as well as versions that translate nucleotide\n queries or databases in all six frames and compare to protein databases\n or queries.\n PSI-BLAST produces a position-specific-scoring-matrix (PSSM) starting\n with a protein query, and then uses that PSSM to perform further searches.\n It is also possible to compare a protein or nucleotide query to a\n database of PSSM\u2019s.\n The NCBI supports a BLAST web page at blast.ncbi.nlm.nih.gov as well as\n a network service."
+}

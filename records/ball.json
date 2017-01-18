@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "BALL", 
+ "collection": "DebianMed", 
+ "version": "1.4.3~beta1-3", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1093/bioinformatics/bti818"
+  ]
+ }, 
+ "homepage": "http://www.ball-project.org/", 
+ "description": "Biochemical Algorithms Library (data files)\n BALL (Biochemical Algorithms Library) is an application framework \n in C++ that has been specifically designed for rapid software \n development in Molecular Modeling and Computational Molecular Biology. \n It provides an extensive set of data structures as well as classes \n for Molecular Mechanics, advanced solvation methods, comparison and \n analysis of protein structures, file import/export, and visualization.\n BALL is currently being developed in the groups of Oliver Kohlbacher\n (University of Tuebingen, Germany), Andreas Hildebrandt (Saarland \n University, Saarbruecken, Germany), and Hans-Peter Lenhof (Saarland \n University, Saarbruecken, Germany).\n .\n This package contains the data files (force field parameters, fragment\n data bases, etc) necessary for using BALL."
+}

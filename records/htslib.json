@@ -1,0 +1,12 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "htslib", 
+ "collection": "DebianMed", 
+ "version": "1.3-2", 
+ "publications": {
+  "publicationsPrimaryID": "None"
+ }, 
+ "homepage": "https://github.com/samtools/htslib", 
+ "description": "C library for high-throughput sequencing data formats\n HTSlib is an implementation of a unified C library for accessing common file\n formats, such as SAM (Sequence Alignment/Map), CRAM and VCF (Variant Call\n Format), used for high-throughput sequencing data, and is the core library\n used by samtools and bcftools. HTSlib only depends on zlib. It is known to be\n compatible with gcc, g++ and clang.\n .\n HTSlib implements a generalized BAM (binary SAM) index, with file extension\n \u2018csi\u2019 (coordinate-sorted index). The HTSlib file reader first looks for the\n new index and then for the old if the new index is absent."
+}

@@ -1,0 +1,14 @@
+{
+ "function": [], 
+ "sourceRegistry": "", 
+ "name": "paraclu", 
+ "collection": "DebianMed", 
+ "version": "9-1", 
+ "publications": {
+  "publicationsPrimaryID": [
+   "10.1101/gr.6831208"
+  ]
+ }, 
+ "homepage": "http://www.cbrc.jp/paraclu/", 
+ "description": "Parametric clustering of genomic and transcriptomic features\n Paraclu finds clusters in data attached to sequences.  It was first\n applied to transcription start counts in genome sequences, but it\n could be applied to other things too.\n .\n Paraclu is intended to explore the data, imposing minimal prior\n assumptions, and letting the data speak for itself.\n .\n One consequence of this is that paraclu can find clusters within\n clusters.  Real data sometimes exhibits clustering at multiple scales:\n there may be large, rarefied clusters; and within each large cluster\n there may be several small, dense clusters."
+}
